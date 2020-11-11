@@ -1,8 +1,14 @@
 # Apache 漏洞整理👻
 
+%accordion%Apache Mod_jk%accordion%
+
+Apache Mod_jk 访问控制权限绕过 CVE-2018-11759
+
+%/accordion%
+
 %accordion%Apache Tomcat%accordion%
 
-Aapache Tomcat AJP 文件包含漏洞 CVE-2020-1938
+Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
 
 Apache Tomcat 远程代码执行漏洞 CVE-2017-12615
 
