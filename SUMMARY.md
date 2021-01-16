@@ -55,8 +55,8 @@
 		  * [Apache Solr RCE 未授权上传漏洞 CVE-2020-13957](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Solr/Apache Solr RCE 未授权上传漏洞 CVE-2020-13957.md)
 	   * [Apache HTTPd](PeiQi_Wiki/Web服务器漏洞/Apache/Apache HTTPd/README.md)
 	      * [Apache HTTPd 换行解析漏洞 CVE-2017-15715](PeiQi_Wiki/Web服务器漏洞/Apache/Apache HTTPd/Apache HTTPd 换行解析漏洞 CVE-2017-15715.md)
-	   * [Apahce ActiveMQ](PeiQi_Wiki/Web服务器漏洞/Apache/Apahce ActiveMQ/README.md)
-	      * [Apahce ActiveMQ Console控制台弱口令](PeiQi_Wiki/Web服务器漏洞/Apache/Apahce ActiveMQ/Apahce ActiveMQ Console控制台弱口令.md)
+	   * [Apache ActiveMQ](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/README.md)
+	      * [Apache ActiveMQ Console控制台默认弱口令](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/Apache ActiveMQ Console控制台默认弱口令.md)
 
 * [服务器应用漏洞](PeiQi_Wiki/服务器应用漏洞/README.md)
     * [Redis](PeiQi_Wiki/服务器应用漏洞/Redis/README.md)

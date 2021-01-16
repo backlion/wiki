@@ -1,6 +1,6 @@
 # 更新时间线记录🦄
 
-###### 2021-1-16 Apahce ActiveMQ Console控制台弱口令
+###### 2021-1-16 Apache ActiveMQ Console控制台 存在默认弱口令
 
 ###### 2021-1-16 DVR 登录绕过漏洞 CVE-2018-9995
 
