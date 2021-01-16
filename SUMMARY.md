@@ -57,6 +57,8 @@
 	      * [Apache HTTPd 换行解析漏洞 CVE-2017-15715](PeiQi_Wiki/Web服务器漏洞/Apache/Apache HTTPd/Apache HTTPd 换行解析漏洞 CVE-2017-15715.md)
 	   * [Apache ActiveMQ](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/README.md)
 	      * [Apache ActiveMQ Console控制台默认弱口令](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/Apache ActiveMQ Console控制台默认弱口令.md)
+	   * [Apache ZooKeeper](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ZooKeeper/README.md)
+	      * [Apache ZooKeeper 未授权访问漏洞 CVE-2014-085](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ZooKeeper/Apache ZooKeeper 未授权访问漏洞 CVE-2014-085.md)
 
 * [服务器应用漏洞](PeiQi_Wiki/服务器应用漏洞/README.md)
     * [Redis](PeiQi_Wiki/服务器应用漏洞/Redis/README.md)
@@ -76,7 +78,9 @@
 	* [Lanproxy](PeiQi_Wiki/Web应用漏洞/Lanproxy/README.md)
 	   * [Lanproxy 目录遍历漏洞 CVE-2021-3019](PeiQi_Wiki/Web应用漏洞/Lanproxy/Lanproxy 目录遍历漏洞 CVE-2021-3019.md)
 
-* [语言框架漏洞](PeiQi_Wiki/语言框架漏洞/README.md)
+* [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
+
+* [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
 
 * [OA产品漏洞](PeiQi_Wiki/OA产品漏洞/README.md)
     * [泛微OA](PeiQi_Wiki/OA产品漏洞/泛微OA/README.md)
