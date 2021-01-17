@@ -78,9 +78,11 @@
 	* [Lanproxy](PeiQi_Wiki/Web应用漏洞/Lanproxy/README.md)
 	   * [Lanproxy 目录遍历漏洞 CVE-2021-3019](PeiQi_Wiki/Web应用漏洞/Lanproxy/Lanproxy 目录遍历漏洞 CVE-2021-3019.md)
 
-* [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
-
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
+    * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
+	   * [Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129](PeiQi_Wiki/开发框架漏洞/Laravel/Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129.md)
+	   
+* [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
 
 * [OA产品漏洞](PeiQi_Wiki/OA产品漏洞/README.md)
     * [泛微OA](PeiQi_Wiki/OA产品漏洞/泛微OA/README.md)
