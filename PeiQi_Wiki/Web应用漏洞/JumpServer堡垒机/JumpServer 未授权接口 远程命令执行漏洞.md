@@ -183,10 +183,6 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 
 ![](image/jump-18.png)
 
-> [!NOTE]
->
-> 试过了很多，部分可获取，大部分日志中很难找到这些值，利用难度还是挺高的
-
 发送请求获取20s的token
 
 ![](image/jump-11.png)
@@ -221,7 +217,9 @@ user_id=efede3f4-8659-4daa-8e95-9a841dbe82a8
 >
 > POC 里包含两个方法，一个是获取日志文件，另一个是命令执行
 >
-> 命令执行需要从日志中获取敏感数据并写入脚本对应的变量中 (这个感觉利用难度比较高吧，很多找不到这个数据)
+> 日志提取已经过滤了部分API调用的数据，只需要找到那几个值就好了
+>
+> 命令执行需要从日志中获取敏感数据并写入脚本对应的变量中 
 >
 > 接收数据如果卡住请调整 for i in range(7) 这个位置的 7
 
@@ -258,9 +256,8 @@ class ws_long(WebSocketClient):
         resp = json.loads(str(resp))
         # print(resp)
         data = resp['message']
-        if "File" in data:
-            data = ""
-        print(data)
+        if "/api/v1/perms/asset-permissions/user/validate/?" in data:
+            print(data)
 
 
 async def send_msg(websocket, _text):
