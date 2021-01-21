@@ -138,6 +138,7 @@
 	* [OKLite](PeiQi_Wiki/CMS漏洞/OKLite/README.md)
 	   * [OKLite 1.2.25 后台模块导入 任意文件上传 CVE-2019-16131](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台模块导入 任意文件上传 CVE-2019-16131.md)
 	   * [OKLite 1.2.25 后台插件安装 任意文件上传](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台插件安装 任意文件上传.md)
+	   * [OKLite 1.2.25 后台风格模块 任意文件删除 CVE-2019-16132](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台风格模块 任意文件删除 CVE-2019-16132.md)
 	
 * [操作系统漏洞](PeiQi_Wiki/操作系统漏洞/README.md)
 	* [Windows](PeiQi_Wiki/操作系统漏洞/Windows/README.md)
