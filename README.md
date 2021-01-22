@@ -45,6 +45,8 @@
 > [!NOTE]
 >
 > Goby & POC 中的 json 文件可被导入Goby快速验证漏洞
+>
+> 部分POC需要根据Goby版本更改下 json文件的最后一行 GobyVersion参数为你的版本
 
 ![](PeiQi_Wiki/background/image-13.png)
 
