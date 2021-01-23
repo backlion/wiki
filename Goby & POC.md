@@ -1,6 +1,8 @@
 # Goby & POC 更新时间线记录🐟
 
-###### 2021-1-22 Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109
+###### 2021-1-22 Apache_Cocoon_Xml_Injection_CVE_2020_11991
+
+###### 2021-1-22 Weblogic_LDAP_RCE_CVE_2021_2109
 
 ###### 2021-1-21 Apache_ActiveMQ_Console_Weak_Password
 
