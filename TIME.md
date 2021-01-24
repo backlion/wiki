@@ -1,5 +1,7 @@
 # 文库更新时间线记录🦄
 
+###### 2021-1-24 Apache Kylin Console 控制台弱口令
+
 ###### 2021-1-24 Laravel .env 配置文件泄露 CVE-2017-16894
 
 ###### 2021-1-23 Weblogic SSRF漏洞 CVE-2014-4210
