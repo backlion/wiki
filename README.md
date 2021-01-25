@@ -8,6 +8,16 @@
 
 ![](PeiQi_Wiki/background/PeiQi文库.gif)
 
+## 公众号和作者
+
+> [!NOTE]
+>
+> 更新的文章都会在第一时间推送在公众号，如果对文库有建议或者想要指出错误，可以扫一扫微信加我好友🐧
+
+![](PeiQi_Wiki/background/background.png)
+
+![](PeiQi_Wiki/background/background_wx.png)
+
 ## 关于使用
 
 文库使用的是[Gitbook](https://www.gitbook.com/)，因为风格比较清新，简洁。于是便选择了它来搭建文库。
@@ -86,10 +96,7 @@
 
 > [!NOTE]
 >
-> 下面就是文库和团队的公众号啦，更新的文章都会在第一时间推送在公众号
->
 > 别忘了Github下载完给个小星星⭐
 
-![](PeiQi_Wiki/background/background.png)
+![](PeiQi_Wiki/background/image-2.png)
 
-![](PeiQi_Wiki/background/background-1.png)

@@ -86,6 +86,9 @@
 	   * [锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露](PeiQi_Wiki/Web应用漏洞/锐捷/锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露.md)
 	* [Lanproxy](PeiQi_Wiki/Web应用漏洞/Lanproxy/README.md)
 	   * [Lanproxy 目录遍历漏洞 CVE-2021-3019](PeiQi_Wiki/Web应用漏洞/Lanproxy/Lanproxy 目录遍历漏洞 CVE-2021-3019.md)
+	* [Alibaba Nacos](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/README.md)
+	   * [Alibaba Nacos 控制台默认弱口令](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 控制台默认弱口令.md)
+	   * [Alibaba Nacos 未授权访问漏洞](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 未授权访问漏洞.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
