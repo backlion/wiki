@@ -113,7 +113,8 @@
 	* [致远OA](PeiQi_Wiki/OA产品漏洞/致远OA/README.md)
 	   * [致远 OA A8 htmlofficeservlet RCE漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md)
 	   * [致远OA Session泄漏漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA Session泄漏漏洞.md)
-	   * [致远OA ajax.do登录绕过 任意文件上传](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA ajax.do登录绕过 任意文件上传.md)
+	   * [致远OA ajax.do登录绕过 任意文件上传 CNVD-2021-01627 ](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA ajax.do登录绕过 任意文件上传 CNVD-2021-01627.md)
+	   * [致远OA webmail.do任意文件下载 CNVD-2020-62422](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md)
 
 * [CMS漏洞](PeiQi_Wiki/CMS漏洞/README.md)
 	* [极致CMS](PeiQi_Wiki/CMS漏洞/极致CMS/README.md)
