@@ -162,5 +162,7 @@
 	* [锐捷](PeiQi_Wiki/网络设备漏洞/锐捷/README.md)
 	   * [锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞.md)
 	   * [锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露.md)
-	
+	* [SonicWall](PeiQi_Wiki/网络设备漏洞/SonicWall/README.md)
+	   * [SonicWall SSL-VPN 远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/SonicWall/SonicWall SSL-VPN 远程命令执行漏洞.md)
+
 
