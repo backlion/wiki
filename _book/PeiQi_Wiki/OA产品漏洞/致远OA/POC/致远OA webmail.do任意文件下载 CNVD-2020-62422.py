@@ -5,7 +5,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 def title():
     print('+------------------------------------------')
     print('+  \033[34mPOC_Des: http://wiki.peiqi.tech                                   \033[0m')
-    print('+  \033[34mVersion: Laravel framework <= 5.5.21                              \033[0m')
+    print('+  \033[34mVersion: 致远OA多个版本				                                \033[0m')
     print('+  \033[36m使用格式:  python3 poc.py                                            \033[0m')
     print('+  \033[36mUrl         >>> http://xxx.xxx.xxx.xxx                             \033[0m')
     print('+------------------------------------------')
