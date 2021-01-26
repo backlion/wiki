@@ -122,7 +122,13 @@ if __name__ == '__main__':
 
 ![](image/ruijie-7.png)
 
+## Goby & POC
 
+> [!NOTE]
+>
+> 锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞
+
+![](image/ruijie-8.png)
 
 
 

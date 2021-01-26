@@ -66,4 +66,8 @@ if __name__ == '__main__':
 
 ## Goby & POC
 
+> [!NOTE]
+>
+> 致远OA webmail.do任意文件下载 CNVD-2020-62422
+
 ![](image/zhiyuan-13.png)
