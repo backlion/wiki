@@ -87,6 +87,8 @@
 	* [Alibaba Nacos](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/README.md)
 	   * [Alibaba Nacos 控制台默认弱口令](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 控制台默认弱口令.md)
 	   * [Alibaba Nacos 未授权访问漏洞](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 未授权访问漏洞.md)
+	* [Atlassian Jira](PeiQi_Wiki/Web应用漏洞/Atlassian Jira/README.md)
+	   * [Atlassian Jira 信息泄露漏洞 CVE-2020-14181](PeiQi_Wiki/Web应用漏洞/Atlassian Jira/Atlassian Jira 信息泄露漏洞 CVE-2020-14181.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
