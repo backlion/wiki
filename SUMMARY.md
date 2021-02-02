@@ -58,6 +58,8 @@
 		  * [Apache ActiveMQ 反序列化漏洞 CVE-2015-5254](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/Apache ActiveMQ 反序列化漏洞 CVE-2015-5254.md)
 	   * [Apache ZooKeeper](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ZooKeeper/README.md)
 	      * [Apache ZooKeeper 未授权访问漏洞 CVE-2014-085](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ZooKeeper/Apache ZooKeeper 未授权访问漏洞 CVE-2014-085.md)
+	   * [Apache Druid](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Druid/README.md)
+	      * [Apache Druid 远程代码执行漏洞 CVE-2021-25646](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Druid/Apache Druid 远程代码执行漏洞 CVE-2021-25646.md)
 
 * [服务器应用漏洞](PeiQi_Wiki/服务器应用漏洞/README.md)
     * [Redis](PeiQi_Wiki/服务器应用漏洞/Redis/README.md)
