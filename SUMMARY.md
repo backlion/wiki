@@ -172,5 +172,10 @@
 	   * [锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露.md)
 	* [SonicWall](PeiQi_Wiki/网络设备漏洞/SonicWall/README.md)
 	   * [SonicWall SSL-VPN 远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/SonicWall/SonicWall SSL-VPN 远程命令执行漏洞.md)
+	* [D-Link](PeiQi_Wiki/网络设备漏洞/D-Link/README.md)
+	   * [D-Link DSL-28881A 信息泄露 CVE-2020-24577](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 信息泄露 CVE-2020-24577.md)
+	   * [D-Link DSL-28881A FTP配置错误 CVE-2020-24578](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A FTP配置错误 CVE-2020-24578.md)
+	   * [D-Link DSL-28881A 未授权访问 CVE-2020-24579](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 未授权访问 CVE-2020-24579.md)
+	   * [D-Link DSL-28881A 远程命令执行 CVE-2020-24581](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 远程命令执行 CVE-2020-24581.md)
 
 
