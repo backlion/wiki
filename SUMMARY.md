@@ -183,5 +183,7 @@
 	   * [D-Link DSL-28881A FTP配置错误 CVE-2020-24578](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A FTP配置错误 CVE-2020-24578.md)
 	   * [D-Link DSL-28881A 未授权访问 CVE-2020-24579](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 未授权访问 CVE-2020-24579.md)
 	   * [D-Link DSL-28881A 远程命令执行 CVE-2020-24581](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 远程命令执行 CVE-2020-24581.md)
+	* [HIKVISION](PeiQi_Wiki/网络设备漏洞/HIKVISION/README.md)
+	   * [HIKVISION 视频编码设备接入网关 任意文件下载](PeiQi_Wiki/网络设备漏洞/HIKVISION/HIKVISION 视频编码设备接入网关 任意文件下载.md)
 
 
