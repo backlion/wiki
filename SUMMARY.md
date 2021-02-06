@@ -66,6 +66,12 @@
 	   * [Redis <= 5.0.5 主从复制 RCE ](PeiQi_Wiki/服务器应用漏洞/Redis/Redis 小于5.0.5 主从复制 RCE .md)
 	* [OpenSSL](PeiQi_Wiki/服务器应用漏洞/OpenSSL/README.md)
 	   * [OpenSSL 心脏滴血漏洞 CVE-2014-0160](PeiQi_Wiki/服务器应用漏洞/OpenSSL/OpenSSL 心脏滴血漏洞 CVE-2014-0160.md)
+	* [Elasticsearch](PeiQi_Wiki/服务器应用漏洞/Elasticsearch/README.md)
+	   * [Elasticsearch 未授权访问](PeiQi_Wiki/服务器应用漏洞/Elasticsearch/Elasticsearch 未授权访问.md)
+	* [NVIDIA](PeiQi_Wiki/服务器应用漏洞/NVIDIA/README.md)
+	   * [NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056](PeiQi_Wiki/服务器应用漏洞/NVIDIA/NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056.md)
+	* [QEMU](PeiQi_Wiki/服务器应用漏洞/QEMU/README.md)
+	   * [QEMU 虚拟机逃逸漏洞 CVE-2020-14364](PeiQi_Wiki/服务器应用漏洞/QEMU/QEMU 虚拟机逃逸漏洞 CVE-2020-14364.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
