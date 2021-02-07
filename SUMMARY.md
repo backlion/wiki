@@ -182,11 +182,15 @@
 	* [SonicWall](PeiQi_Wiki/网络设备漏洞/SonicWall/README.md)
 	   * [SonicWall SSL-VPN 远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/SonicWall/SonicWall SSL-VPN 远程命令执行漏洞.md)
 	* [D-Link](PeiQi_Wiki/网络设备漏洞/D-Link/README.md)
+	   * [D-Link AC管理系统默认账号密码](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link AC管理系统默认账号密码.md)
 	   * [D-Link DSL-28881A 信息泄露 CVE-2020-24577](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 信息泄露 CVE-2020-24577.md)
 	   * [D-Link DSL-28881A FTP配置错误 CVE-2020-24578](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A FTP配置错误 CVE-2020-24578.md)
 	   * [D-Link DSL-28881A 未授权访问 CVE-2020-24579](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 未授权访问 CVE-2020-24579.md)
 	   * [D-Link DSL-28881A 远程命令执行 CVE-2020-24581](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 远程命令执行 CVE-2020-24581.md)
 	* [HIKVISION](PeiQi_Wiki/网络设备漏洞/HIKVISION/README.md)
 	   * [HIKVISION 视频编码设备接入网关 任意文件下载](PeiQi_Wiki/网络设备漏洞/HIKVISION/HIKVISION 视频编码设备接入网关 任意文件下载.md)
+	* [Wayos](PeiQi_Wiki/网络设备漏洞/Wayos/README.md)
+	   * [Wayos AC集中管理系统默认弱口令  CNVD-2021-00876](PeiQi_Wiki/网络设备漏洞/Wayos/Wayos AC集中管理系统默认弱口令  CNVD-2021-00876.md)
+
 
 
