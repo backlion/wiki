@@ -1,4 +1,4 @@
-# Weiphp5.0 任意用户Cookie伪造
+# Weiphp5.0 任意用户Cookie伪造 CNVD-2021-09693
 
 ## 漏洞描述
 
