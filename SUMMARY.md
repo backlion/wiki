@@ -16,6 +16,7 @@
 		  * [扫描工具 WeblogicScanner](PeiQi_Wiki/Web服务器漏洞/Weblogic/Scan/扫描工具 WeblogicScanner.md)
 	   * [Weblogic SSRF漏洞 CVE-2014-4210](PeiQi_Wiki/Web服务器漏洞/Weblogic/Weblogic SSRF漏洞 CVE-2014-4210.md)
 	   * [Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271](PeiQi_Wiki/Web服务器漏洞/Weblogic/Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271.md)
+	   * [Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725](PeiQi_Wiki/Web服务器漏洞/Weblogic/Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725.md)
 	   * [Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109](PeiQi_Wiki/Web服务器漏洞/Weblogic/Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109.md)
 	  
 	* [Nginx](PeiQi_Wiki/Web服务器漏洞/Nginx/README.md)
@@ -101,7 +102,7 @@
 	* [Atlassian Jira](PeiQi_Wiki/Web应用漏洞/Atlassian Jira/README.md)
 	   * [Atlassian Jira 信息泄露漏洞 CVE-2020-14181](PeiQi_Wiki/Web应用漏洞/Atlassian Jira/Atlassian Jira 信息泄露漏洞 CVE-2020-14181.md)
 	* [若依(RuoYi)管理系统](PeiQi_Wiki/Web应用漏洞/若依管理系统/README.md)
-	   * [若依管理系统 后台任意文件读取](PeiQi_Wiki/Web应用漏洞/若依管理系统/若依管理系统 后台任意文件读取.md)
+	   * [若依管理系统 后台任意文件读取 CNVD-2021-01931](PeiQi_Wiki/Web应用漏洞/若依管理系统/若依管理系统 后台任意文件读取 CNVD-2021-01931.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
