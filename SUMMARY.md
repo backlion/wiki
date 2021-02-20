@@ -192,6 +192,8 @@
 	   * [HIKVISION 视频编码设备接入网关 任意文件下载](PeiQi_Wiki/网络设备漏洞/HIKVISION/HIKVISION 视频编码设备接入网关 任意文件下载.md)
 	* [Wayos](PeiQi_Wiki/网络设备漏洞/Wayos/README.md)
 	   * [Wayos AC集中管理系统默认弱口令  CNVD-2021-00876](PeiQi_Wiki/网络设备漏洞/Wayos/Wayos AC集中管理系统默认弱口令  CNVD-2021-00876.md)
+	* [DrayTek](PeiQi_Wiki/网络设备漏洞/DrayTek/README.md)
+	   * [DrayTek企业网络设备 远程命令执行 CVE-2020-8515](PeiQi_Wiki/网络设备漏洞/DrayTek/DrayTek企业网络设备 远程命令执行 CVE-2020-8515.md)
 
 
 
