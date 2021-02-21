@@ -194,6 +194,7 @@
 	   * [Wayos AC集中管理系统默认弱口令  CNVD-2021-00876](PeiQi_Wiki/网络设备漏洞/Wayos/Wayos AC集中管理系统默认弱口令  CNVD-2021-00876.md)
 	* [DrayTek](PeiQi_Wiki/网络设备漏洞/DrayTek/README.md)
 	   * [DrayTek企业网络设备 远程命令执行 CVE-2020-8515](PeiQi_Wiki/网络设备漏洞/DrayTek/DrayTek企业网络设备 远程命令执行 CVE-2020-8515.md)
-
+	* [蜂网互联](PeiQi_Wiki/网络设备漏洞/蜂网互联/README.md)
+	   * [蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313](PeiQi_Wiki/网络设备漏洞/蜂网互联/蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313.md)
 
 
