@@ -78,6 +78,8 @@
 	   * [SaltStack 未授权访问命令执行漏洞 CVE-2020-16846/25592](PeiQi_Wiki/服务器应用漏洞/Saltstack/SaltStack 未授权访问命令执行漏洞 CVE-2020-16846 25592.md)
 	* [MinIO](PeiQi_Wiki/服务器应用漏洞/MinIO/README.md)
 	   * [MinIO SSRF漏洞 CVE-2021-21287](PeiQi_Wiki/服务器应用漏洞/MinIO/MinIO SSRF漏洞 CVE-2021-21287.md)
+	* [VMware](PeiQi_Wiki/服务器应用漏洞/VMware/README.md)
+	   * [VMware vCenter任意文件读取漏洞](PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
