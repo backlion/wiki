@@ -163,6 +163,9 @@
 	   * [OKLite 1.2.25 后台模块导入 任意文件上传 CVE-2019-16131](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台模块导入 任意文件上传 CVE-2019-16131.md)
 	   * [OKLite 1.2.25 后台插件安装 任意文件上传](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台插件安装 任意文件上传.md)
 	   * [OKLite 1.2.25 后台风格模块 任意文件删除 CVE-2019-16132](PeiQi_Wiki/CMS漏洞/OKLite/OKLite 1.2.25 后台风格模块 任意文件删除 CVE-2019-16132.md)
+	* [1039家校通](PeiQi_Wiki/CMS漏洞/1039家校通/README.md)
+	   * [1039家校通 万能密码绕过 CNVD-2020-31494](PeiQi_Wiki/CMS漏洞/1039家校通/1039家校通 万能密码绕过 CNVD-2020-31494.md)
+	   * [1039家校通 后台任意文件上传漏洞](PeiQi_Wiki/CMS漏洞/1039家校通/1039家校通 后台任意文件上传漏洞.md)
 	
 * [操作系统漏洞](PeiQi_Wiki/操作系统漏洞/README.md)
 	* [Windows](PeiQi_Wiki/操作系统漏洞/Windows/README.md)
