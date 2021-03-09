@@ -94,6 +94,8 @@
 	   * [JumpServer 未授权接口 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/JumpServer堡垒机/JumpServer 未授权接口 远程命令执行漏洞.md)
 	* [F5 BIG-IP](PeiQi_Wiki/Web应用漏洞/F5 BIG-IP/README.md)
 	   * [F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902](PeiQi_Wiki/Web应用漏洞/F5 BIG-IP/F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902.md)
+	* [GitLab](PeiQi_Wiki/Web应用漏洞/GitLab/README.md)
+	   * [GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413](PeiQi_Wiki/Web应用漏洞/GitLab/GitLab Graphql邮箱信息泄露漏洞 CVE-2020-26413.md)
 	* [天融信](PeiQi_Wiki/Web应用漏洞/天融信/README.md)
 	   * [天融信负载均衡TopApp-LB任意登陆](PeiQi_Wiki/Web应用漏洞/天融信/天融信负载均衡TopApp-LB任意登陆.md)
 	   * [天融信负载均衡TopApp-LB命令执行漏洞](PeiQi_Wiki/Web应用漏洞/天融信/天融信负载均衡TopApp-LB命令执行漏洞.md)
