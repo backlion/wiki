@@ -133,6 +133,8 @@
 	   * [通达OA v11.6 任意文件删除&RCE](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.6 任意文件删除&RCE.md)
 	   * [通达OA v11.7后台SQL注入](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.7后台SQL注入.md)
 	   * [通达OA v11.7 在线用户登录漏洞](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.7 在线用户登录漏洞.md)
+	   * [通达OA v11.8 后台文件包含XSS漏洞](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.8 后台文件包含XSS漏洞.md)
+	   * [通达OA v11.8 后台文件包含命令执行漏洞](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.8 后台文件包含命令执行漏洞.md)
 	* [用友OA](PeiQi_Wiki/OA产品漏洞/用友OA/README.md)
 	   * [用友GRP-U8行政事业财务管理软件 SQL注入 CNNVD-201610-923](PeiQi_Wiki/OA产品漏洞/用友OA/用友GRP-U8行政事业财务管理软件 SQL注入 CNNVD-201610-923.md)
 	* [致远OA](PeiQi_Wiki/OA产品漏洞/致远OA/README.md)
