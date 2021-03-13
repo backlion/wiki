@@ -82,6 +82,10 @@
 	   * [VMware vCenter任意文件读取漏洞](PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md)
 	* [浪潮](PeiQi_Wiki/服务器应用漏洞/浪潮/README.md)
 	   * [浪潮ClusterEngineV4.0 远程命令执行漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.md)
+	* [Git](PeiQi_Wiki/服务器应用漏洞/Git/README.md)
+	   * [Git for Visual Studio远程执行代码漏洞 CVE-2021-21300](PeiQi_Wiki/服务器应用漏洞/Git/Git for Visual Studio远程执行代码漏洞 CVE-2021-21300.md)
+	* [Microsoft Exchange](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/README.md)
+	   * [Microsoft Exchange SSRF漏洞 CVE-2021-26885](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange SSRF漏洞 CVE-2021-26885.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
