@@ -1,5 +1,9 @@
 # 文库更新时间线记录🦄
 
+###### 2021-3-15 Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065
+
+###### 2021-3-13 Microsoft Exchange SSRF漏洞 CVE-2021-26885
+
 ###### 2021-3-11 Git for Visual Studio远程执行代码漏洞 CVE-2021-21300
 
 ###### 2021-3-11 Windows Win32k 本地提权漏洞 CVE-2021-1732

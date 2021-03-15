@@ -86,6 +86,7 @@
 	   * [Git for Visual Studio远程执行代码漏洞 CVE-2021-21300](PeiQi_Wiki/服务器应用漏洞/Git/Git for Visual Studio远程执行代码漏洞 CVE-2021-21300.md)
 	* [Microsoft Exchange](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/README.md)
 	   * [Microsoft Exchange SSRF漏洞 CVE-2021-26885](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange SSRF漏洞 CVE-2021-26885.md)
+	   * [Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
