@@ -121,6 +121,8 @@
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
 	   * [Laravel .env 配置文件泄露 CVE-2017-16894](PeiQi_Wiki/开发框架漏洞/Laravel/Laravel .env 配置文件泄露 CVE-2017-16894.md)
 	   * [Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129](PeiQi_Wiki/开发框架漏洞/Laravel/Laravel 小于 8.4.2 Debug模式 _ignition 远程代码执行漏洞 CVE-2021-3129.md)
+	* [jQuery](PeiQi_Wiki/开发框架漏洞/jQuery/README.md)
+	   * [jQuery XSS漏洞 CVE-2020-11022/11023](PeiQi_Wiki/开发框架漏洞/jQuery/jQuery XSS漏洞 CVE-2020-11022 11023.md)
 	  
 * [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
 
