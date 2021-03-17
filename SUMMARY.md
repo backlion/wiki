@@ -226,5 +226,6 @@
 	   * [蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313](PeiQi_Wiki/网络设备漏洞/蜂网互联/蜂网互联 企业级路由器v4.31 密码泄露漏洞 CVE-2019-16313.md)
 	* [Sapido](PeiQi_Wiki/网络设备漏洞/Sapido/README.md)
 	   * [Sapido多款路由器命令执行漏洞](PeiQi_Wiki/网络设备漏洞/Sapido/Sapido多款路由器命令执行漏洞.md)
-
+	* [JCG](PeiQi_Wiki/网络设备漏洞/JCG/README.md)
+	   * [JCG JHR-N835R 后台命令执行漏洞](PeiQi_Wiki/网络设备漏洞/JCG/JCG JHR-N835R 后台命令执行漏洞.md)
 
