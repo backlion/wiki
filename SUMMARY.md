@@ -52,6 +52,7 @@
 		  * [Apache Solr Velocity模板远程执行 CVE-2019-17558](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Solr/Apache Solr Velocity模板远程执行 CVE-2019-17558.md)
 		  * [Apache Solr JMX服务 RCE  CVE-2019-12409](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Solr/Apache Solr JMX服务 RCE CVE-2019-12409.md)
 		  * [Apache Solr RCE 未授权上传漏洞 CVE-2020-13957](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Solr/Apache Solr RCE 未授权上传漏洞 CVE-2020-13957.md)
+		  * [Apache Solr 任意文件读取漏洞](PeiQi_Wiki/Web服务器漏洞/Apache/Apache Solr/Apache Solr 任意文件读取漏洞.md)
 	   * [Apache HTTPd](PeiQi_Wiki/Web服务器漏洞/Apache/Apache HTTPd/README.md)
 	      * [Apache HTTPd 换行解析漏洞 CVE-2017-15715](PeiQi_Wiki/Web服务器漏洞/Apache/Apache HTTPd/Apache HTTPd 换行解析漏洞 CVE-2017-15715.md)
 	   * [Apache ActiveMQ](PeiQi_Wiki/Web服务器漏洞/Apache/Apache ActiveMQ/README.md)
