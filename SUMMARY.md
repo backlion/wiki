@@ -153,6 +153,8 @@
 	* [用友OA](PeiQi_Wiki/OA产品漏洞/用友OA/README.md)
 	   * [用友GRP-U8行政事业财务管理软件 SQL注入 CNNVD-201610-923](PeiQi_Wiki/OA产品漏洞/用友OA/用友GRP-U8行政事业财务管理软件 SQL注入 CNNVD-201610-923.md)
 	* [致远OA](PeiQi_Wiki/OA产品漏洞/致远OA/README.md)
+	   * [致远OA A6 用户敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 用户敏感信息泄露.md)
+	   * [致远OA A6 数据库敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 数据库敏感信息泄露.md)
 	   * [致远 OA A8 htmlofficeservlet RCE漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md)
 	   * [致远OA Session泄漏漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA Session泄漏漏洞.md)
 	   * [致远OA ajax.do登录绕过 任意文件上传 CNVD-2021-01627 ](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA ajax.do登录绕过 任意文件上传 CNVD-2021-01627.md)

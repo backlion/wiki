@@ -104,16 +104,7 @@ import base64
 import time
 from lxml import etree
 import json
-import xmltodict
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-
-def xml_to_json(xml_str):
-    # parse是的xml解析器
-    xml_parse = xmltodict.parse(xml_str)
-    # json库dumps()是将dict转化成json格式,loads()是将json转化成dict格式。
-    # dumps()方法的ident=1,格式化json
-    json_str = json.dumps(xml_parse, indent=1)
-    return json_str
 
 def title():
     print('+------------------------------------------')
@@ -121,7 +112,7 @@ def title():
     print('+  \033[34mGithub : https://github.com/PeiQi0        \033[0m')
     print('+  \033[34m公众号  : PeiQi文库                        \033[0m')
     print('+  \033[34mVersion: Apache Solr < 8.2.0            \033[0m')
-    print('+  \033[36m使用格式: python3 CVE-2019-0193.py       \033[0m')
+    print('+  \033[36m使用格式: python3 poc.py     			    \033[0m')
     print('+  \033[36mUrl    >>> http://xxx.xxx.xxx.xxx:8983  \033[0m')
     print('+  \033[36mFile   >>> 文件名称或目录                  \033[0m')
     print('+------------------------------------------')
