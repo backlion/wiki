@@ -1,8 +1,8 @@
 # Goby & POC 更新时间线记录🐟
 
-###### 2021-3-18 致远OA A6 用户敏感信息泄露	
+###### 2021-3-18 致远OA getSessionList.jsp Session泄漏漏洞
 
-###### 2021-3-18 致远OA A6 数据库敏感信息泄露
+###### 2021-3-18 致远OA A6 DownExcelBeanServlet 用户敏感信息泄露	
 
 ###### 2021-3-17 XXL-JOB 任务调度中心 后台默认弱口令
 
