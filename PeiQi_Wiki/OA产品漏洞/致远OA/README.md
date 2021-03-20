@@ -6,6 +6,8 @@
 
 #### 致远OA A6 initDataAssess.jsp 用户敏感信息泄露
 
+#### 致远OA A6 test.jsp SQL注入漏洞
+
 #### 致远OA A8 htmlofficeservlet RCE漏洞
 
 #### 致远OA getSessionList.jsp Session泄漏漏洞
