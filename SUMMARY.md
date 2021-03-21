@@ -125,6 +125,8 @@
 	   * [智慧校园管理系统 前台任意文件上传漏洞](PeiQi_Wiki/Web应用漏洞/智慧校园管理系统/智慧校园管理系统 前台任意文件上传漏洞.md)
 	* [Harbor](PeiQi_Wiki/Web应用漏洞/Harbor/README.md)
 	   * [Harbor 未授权创建管理员漏洞 CVE-2019-16097](PeiQi_Wiki/Web应用漏洞/Harbor/Harbor 未授权创建管理员漏洞 CVE-2019-16097.md)
+	* [Jupyter Notebook](PeiQi_Wiki/Web应用漏洞/Jupyter Notebook/README.md)
+	   * [Jupyter Notebook 未授权访问远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/Jupyter Notebook/Jupyter Notebook 未授权访问远程命令执行漏洞.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
