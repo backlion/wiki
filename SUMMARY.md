@@ -163,6 +163,8 @@
 	   * [致远OA getSessionList.jsp Session泄漏漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA getSessionList.jsp Session泄漏漏洞.md)
 	   * [致远OA ajax.do 登录绕过 任意文件上传 CNVD-2021-01627](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA ajax.do 登录绕过 任意文件上传 CNVD-2021-01627.md)
 	   * [致远OA webmail.do任意文件下载 CNVD-2020-62422](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md)
+	* [帆软报表](PeiQi_Wiki/OA产品漏洞/帆软报表/README.md)
+	   * [帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757](PeiQi_Wiki/OA产品漏洞/帆软报表/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md)
 
 * [CMS漏洞](PeiQi_Wiki/CMS漏洞/README.md)
 	* [极致CMS](PeiQi_Wiki/CMS漏洞/极致CMS/README.md)
