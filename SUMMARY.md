@@ -127,6 +127,8 @@
 	   * [Harbor 未授权创建管理员漏洞 CVE-2019-16097](PeiQi_Wiki/Web应用漏洞/Harbor/Harbor 未授权创建管理员漏洞 CVE-2019-16097.md)
 	* [Jupyter Notebook](PeiQi_Wiki/Web应用漏洞/Jupyter Notebook/README.md)
 	   * [Jupyter Notebook 未授权访问远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/Jupyter Notebook/Jupyter Notebook 未授权访问远程命令执行漏洞.md)
+	* [MessageSolution](PeiQi_Wiki/Web应用漏洞/MessageSolution/README.md)
+	   * [MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543](PeiQi_Wiki/Web应用漏洞/MessageSolution/MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
