@@ -1,4 +1,4 @@
-# 致远OA A6 setextno.jsp SQL注入漏洞
+# 	
 
 ## 漏洞描述
 

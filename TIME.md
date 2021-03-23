@@ -1,5 +1,7 @@
 # 文库更新时间线记录🦄
 
+###### 2021-3-24 Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
+
 ###### 2021-3-23 致远OA A6 setextno.jsp SQL注入漏洞
 
 ###### 2021-3-22 MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543

