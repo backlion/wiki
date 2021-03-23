@@ -1,5 +1,7 @@
 # 文库更新时间线记录🦄
 
+###### 2021-3-23 致远OA A6 setextno.jsp SQL注入漏洞
+
 ###### 2021-3-22 MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
 
 ###### 2021-3-21 Jupyter Notebook 未授权访问远程命令执行漏洞

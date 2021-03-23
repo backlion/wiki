@@ -162,6 +162,7 @@
 	   * [致远OA A6 DownExcelBeanServlet 用户敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 DownExcelBeanServlet 用户敏感信息泄露.md)
 	   * [致远OA A6 initDataAssess.jsp 用户敏感信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 initDataAssess.jsp 用户敏感信息泄露.md)
 	   * [致远OA A6 test.jsp SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 test.jsp SQL注入漏洞.md)
+	   * [致远OA A6 setextno.jsp SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A6 setextno.jsp SQL注入漏洞.md)
 	   * [致远OA A8 状态监控页面信息泄露](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 状态监控页面信息泄露.md)
 	   * [致远 OA A8 htmlofficeservlet RCE漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA A8 htmlofficeservlet RCE漏洞.md)
 	   * [致远OA getSessionList.jsp Session泄漏漏洞](PeiQi_Wiki/OA产品漏洞/致远OA/致远OA getSessionList.jsp Session泄漏漏洞.md)
