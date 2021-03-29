@@ -102,6 +102,8 @@
 	   * [Lanproxy 目录遍历漏洞 CVE-2021-3019](PeiQi_Wiki/Web应用漏洞/Lanproxy/Lanproxy 目录遍历漏洞 CVE-2021-3019.md)
 	* [JumpServer堡垒机](PeiQi_Wiki/Web应用漏洞/JumpServer堡垒机/README.md)
 	   * [JumpServer 未授权接口 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/JumpServer堡垒机/JumpServer 未授权接口 远程命令执行漏洞.md)
+	* [思福迪堡垒机](PeiQi_Wiki/Web应用漏洞/思福迪堡垒机/README.md)
+	   * [思福迪堡垒机 任意用户登录漏洞](PeiQi_Wiki/Web应用漏洞/思福迪堡垒机/思福迪堡垒机 任意用户登录漏洞.md)
 	* [F5 BIG-IP](PeiQi_Wiki/Web应用漏洞/F5 BIG-IP/README.md)
 	   * [F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902](PeiQi_Wiki/Web应用漏洞/F5 BIG-IP/F5 BIG-IP 远程代码执行漏洞 CVE-2020-5902.md)
 	   * [F5 BIG-IP 远程代码执行漏洞 CVE-2021-22986](PeiQi_Wiki/Web应用漏洞/F5 BIG-IP/F5 BIG-IP 远程代码执行漏洞 CVE-2021-22986.md)
