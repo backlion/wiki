@@ -70,6 +70,8 @@
 	   * [Redis <= 5.0.5 主从复制 RCE ](PeiQi_Wiki/服务器应用漏洞/Redis/Redis 小于5.0.5 主从复制 RCE .md)
 	* [OpenSSL](PeiQi_Wiki/服务器应用漏洞/OpenSSL/README.md)
 	   * [OpenSSL 心脏滴血漏洞 CVE-2014-0160](PeiQi_Wiki/服务器应用漏洞/OpenSSL/OpenSSL 心脏滴血漏洞 CVE-2014-0160.md)
+	* [OpenSSH](PeiQi_Wiki/服务器应用漏洞/OpenSSH/README.md)
+	   * [OpenSSH 命令注入漏洞 CVE-2020-15778](PeiQi_Wiki/服务器应用漏洞/OpenSSH/OpenSSH 命令注入漏洞 CVE-2020-15778.md)
 	* [Elasticsearch](PeiQi_Wiki/服务器应用漏洞/Elasticsearch/README.md)
 	   * [Elasticsearch 未授权访问](PeiQi_Wiki/服务器应用漏洞/Elasticsearch/Elasticsearch 未授权访问.md)
 	* [NVIDIA](PeiQi_Wiki/服务器应用漏洞/NVIDIA/README.md)
