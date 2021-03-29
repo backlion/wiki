@@ -178,6 +178,14 @@ if __name__ == '__main__':
 
 ![](image/solr-32.png)
 
+## Goby & POC
+
+> Apache Solr 任意文件读取漏洞
+
+![](image/solr-33.png)
+
+
+
 ## 参考文章
 
 https://mp.weixin.qq.com/s/HMtAz6_unM1PrjfAzfwCUQ

@@ -238,6 +238,7 @@
 	   * [D-Link DSL-28881A FTP配置错误 CVE-2020-24578](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A FTP配置错误 CVE-2020-24578.md)
 	   * [D-Link DSL-28881A 未授权访问 CVE-2020-24579](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 未授权访问 CVE-2020-24579.md)
 	   * [D-Link DSL-28881A 远程命令执行 CVE-2020-24581](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DSL-28881A 远程命令执行 CVE-2020-24581.md)
+	   * [D-Link DCS系列监控 账号密码信息泄露漏洞 CVE-2020-25078](PeiQi_Wiki/网络设备漏洞/D-Link/D-Link DCS系列监控 账号密码信息泄露漏洞 CVE-2020-25078.md) 	
 	* [HIKVISION](PeiQi_Wiki/网络设备漏洞/HIKVISION/README.md)
 	   * [HIKVISION 视频编码设备接入网关 任意文件下载](PeiQi_Wiki/网络设备漏洞/HIKVISION/HIKVISION 视频编码设备接入网关 任意文件下载.md)
 	   * [HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544](PeiQi_Wiki/网络设备漏洞/HIKVISION/HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544.md)
