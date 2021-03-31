@@ -85,6 +85,7 @@
 	   * [MinIO SSRF漏洞 CVE-2021-21287](PeiQi_Wiki/服务器应用漏洞/MinIO/MinIO SSRF漏洞 CVE-2021-21287.md)
 	* [VMware](PeiQi_Wiki/服务器应用漏洞/VMware/README.md)
 	   * [VMware vCenter任意文件读取漏洞](PeiQi_Wiki/服务器应用漏洞/VMware/VMware vCenter任意文件读取漏洞.md)
+	   * [VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975](PeiQi_Wiki/服务器应用漏洞/VMware/VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975.md)
 	* [浪潮](PeiQi_Wiki/服务器应用漏洞/浪潮/README.md)
 	   * [浪潮ClusterEngineV4.0 远程命令执行漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.md)
 	* [Git](PeiQi_Wiki/服务器应用漏洞/Git/README.md)
