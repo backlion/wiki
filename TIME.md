@@ -1,8 +1,10 @@
 # 文库更新时间线记录🦄
 
-###### 2021-3-21 VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975
+###### 2021-3-31 朗视 TG400 GSM 网关目录遍历  CVE-2021-27328
 
-###### 2021-3-21 DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137
+###### 2021-3-31 VMware vRealize Operations Manager SSRF漏洞 CVE-2021-21975
+
+###### 2021-3-31 DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137
 
 ###### 2021-3-30 中新金盾信息安全管理系统 默认超级管理员密码漏洞
 
