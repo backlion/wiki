@@ -137,6 +137,8 @@
 	   * [MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543](PeiQi_Wiki/Web应用漏洞/MessageSolution/MessageSolution  邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543.md)
 	* [JD-FreeFuck](PeiQi_Wiki/Web应用漏洞/JD-FreeFuck/README.md)
 	   * [JD-FreeFuck 后台命令执行漏洞](PeiQi_Wiki/Web应用漏洞/JD-FreeFuck/JD-FreeFuck 后台命令执行漏洞.md)
+	* [中新金盾](PeiQi_Wiki/Web应用漏洞/中新金盾/README.md)
+	   * [中新金盾信息安全管理系统 默认超级管理员密码漏洞](PeiQi_Wiki/Web应用漏洞/中新金盾/中新金盾信息安全管理系统 默认超级管理员密码漏洞.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
@@ -258,4 +260,6 @@
 	   * [Sapido多款路由器命令执行漏洞](PeiQi_Wiki/网络设备漏洞/Sapido/Sapido多款路由器命令执行漏洞.md)
 	* [JCG](PeiQi_Wiki/网络设备漏洞/JCG/README.md)
 	   * [JCG JHR-N835R 后台命令执行漏洞](PeiQi_Wiki/网络设备漏洞/JCG/JCG JHR-N835R 后台命令执行漏洞.md)
+	* [DD-WRT](PeiQi_Wiki/网络设备漏洞/DD-WRT/README.md)
+	   * [DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137](PeiQi_Wiki/网络设备漏洞/DD-WRT/DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137.md)
 
