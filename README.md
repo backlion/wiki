@@ -20,6 +20,12 @@
 
 ![](PeiQi_Wiki/background/background_wx.png)
 
+## 知识星球
+
+![](PeiQi_Wiki/background\image-zs.png)
+
+
+
 ## 关于使用
 
 文库使用的是[Gitbook](https://www.gitbook.com/)，因为风格比较清新，简洁。于是便选择了它来搭建文库。
