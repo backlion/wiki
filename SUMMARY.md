@@ -153,6 +153,8 @@
 * [OA产品漏洞](PeiQi_Wiki/OA产品漏洞/README.md)
 	* [蓝凌OA](PeiQi_Wiki/OA产品漏洞/蓝凌OA/README.md)
 	   * [蓝凌OA EKP 后台SQL注入漏洞 CNVD-2021-01363](PeiQi_Wiki/OA产品漏洞/蓝凌OA/蓝凌OA EKP 后台SQL注入漏洞 CNVD-2021-01363.md)
+	* [金和OA](PeiQi_Wiki/OA产品漏洞/金和OA/README.md)
+	   * [金和OA C6 管理员默认口令](PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 管理员默认口令.md)
     * [泛微OA](PeiQi_Wiki/OA产品漏洞/泛微OA/README.md)
 	   * [泛微云桥 e-Bridge 任意文件读取](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md)
 	   * [泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md)
