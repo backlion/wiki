@@ -90,6 +90,7 @@
 	   * [浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224.md)
 	* [Git](PeiQi_Wiki/服务器应用漏洞/Git/README.md)
 	   * [Git for Visual Studio远程执行代码漏洞 CVE-2021-21300](PeiQi_Wiki/服务器应用漏洞/Git/Git for Visual Studio远程执行代码漏洞 CVE-2021-21300.md)
+	   * [Git-LFS 远程命令执行漏洞 CVE-2020-27955](PeiQi_Wiki/服务器应用漏洞/Git/Git-LFS 远程命令执行漏洞 CVE-2020-27955.md)
 	* [Microsoft Exchange](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/README.md)
 	   * [Microsoft Exchange SSRF漏洞 CVE-2021-26885](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange SSRF漏洞 CVE-2021-26885.md)
 	   * [Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065.md)
