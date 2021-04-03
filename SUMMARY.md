@@ -156,6 +156,7 @@
 	* [金和OA](PeiQi_Wiki/OA产品漏洞/金和OA/README.md)
 	   * [金和OA C6 管理员默认口令](PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 管理员默认口令.md)
 	   * [金和OA C6 越权信息泄露漏洞](PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 越权信息泄露漏洞.md)
+	   * [金和OA C6 后台越权敏感文件遍历漏洞](PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 后台越权敏感文件遍历漏洞.md)
     * [泛微OA](PeiQi_Wiki/OA产品漏洞/泛微OA/README.md)
 	   * [泛微云桥 e-Bridge 任意文件读取](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md)
 	   * [泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md)

