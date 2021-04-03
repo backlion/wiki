@@ -153,7 +153,9 @@
 	   * [jQuery XSS漏洞 CVE-2020-11022/11023](PeiQi_Wiki/开发框架漏洞/jQuery/jQuery XSS漏洞 CVE-2020-11022 11023.md)
 	  
 * [开发语言漏洞](PeiQi_Wiki/开发语言漏洞/README.md)
-
+	* [PHP](PeiQi_Wiki/开发语言漏洞/PHP/README.md)
+	   * [PHP zerodium后门漏洞](PeiQi_Wiki/开发语言漏洞/PHP/PHP zerodium后门漏洞.md)
+	   
 * [OA产品漏洞](PeiQi_Wiki/OA产品漏洞/README.md)
 	* [蓝凌OA](PeiQi_Wiki/OA产品漏洞/蓝凌OA/README.md)
 	   * [蓝凌OA EKP 后台SQL注入漏洞 CNVD-2021-01363](PeiQi_Wiki/OA产品漏洞/蓝凌OA/蓝凌OA EKP 后台SQL注入漏洞 CNVD-2021-01363.md)
