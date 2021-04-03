@@ -140,6 +140,10 @@
 	   * [JD-FreeFuck 后台命令执行漏洞](PeiQi_Wiki/Web应用漏洞/JD-FreeFuck/JD-FreeFuck 后台命令执行漏洞.md)
 	* [中新金盾](PeiQi_Wiki/Web应用漏洞/中新金盾/README.md)
 	   * [中新金盾信息安全管理系统 默认超级管理员密码漏洞](PeiQi_Wiki/Web应用漏洞/中新金盾/中新金盾信息安全管理系统 默认超级管理员密码漏洞.md)
+	* [实践教学平台](PeiQi_Wiki/Web应用漏洞/实践教学平台/README.md)
+	   * [杭州法源软件 法律知识数据库系统 SQL注入漏洞](PeiQi_Wiki/Web应用漏洞/实践教学平台/杭州法源软件 法律知识数据库系统 SQL注入漏洞.md)
+	   * [杭州法源软件 法律知识数据库系统 后台XSS漏洞](PeiQi_Wiki/Web应用漏洞/实践教学平台/杭州法源软件 法律知识数据库系统 后台XSS漏洞.md)
+	   * [杭州法源软件 公证实务教学软件 SQL注入漏洞](PeiQi_Wiki/Web应用漏洞/实践教学平台/杭州法源软件 公证实务教学软件 SQL注入漏洞.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
