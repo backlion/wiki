@@ -1,16 +1,16 @@
 {
-      "Name": "Yinpeng Hanming Video Conferencing  Arbitrary file read",
+      "Name": "Yinpeng Hanming Video Conferencing  Arbitrary file read (CNVD-2020-62437)",
       "Level": "1",
       "Tags": [
             "Disclosure of Sensitive Information"
       ],
       "GobyQuery": "app=\"Hanming-Video-Conferencing\"",
-      "Description": "Yinpeng cloud computing haoshitong video conference system has arbitrary file download, and attackers can obtain sensitive information through vulnerabilities",
+      "Description": "Shenzhen yinpeng cloud computing Co., Ltd. was established on September 11, 2013. Its business scope includes the development and sales of cloud computing technology, the design of computer software and hardware products, etc.\n\n\n\nThere is an arbitrary file download vulnerability in haoshitong video conference system of Shenzhen yinpeng cloud computing Co., Ltd., which can be used by attackers to obtain sensitive information.",
       "Product": "Yinpeng Hanming Video Conferencing",
       "Homepage": "http://zhibo.hst.com/",
       "Author": "PeiQi",
-      "Impact": "<p>Attackers can obtain sensitive information through vulnerabilities<br></p>",
-      "Recommandation": "<p>Upgrade version, restrict access<br></p>",
+      "Impact": "<p>which can be used by attackers to obtain sensitive information.<br></p>",
+      "Recommandation": "<p>Limiting the use of dangerous characters</p>",
       "References": [
             "http://wiki.peiqi.tech"
       ],
@@ -93,6 +93,6 @@
 				  ]
             }
       ],
-      "PostTime": "2021-04-04 08:49:00",
+      "PostTime": "2021-04-04 16:11:09",
       "GobyVersion": "1.8.255"
 }

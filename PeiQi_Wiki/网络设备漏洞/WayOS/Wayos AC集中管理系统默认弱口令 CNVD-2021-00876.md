@@ -28,4 +28,10 @@ AC集中管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏
 
 ## Goby & POC
 
+> [!NOTE]
+>
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
+> Wayos_AC_Centralized_management_system_Default_weak_password
+
 ![](image/wayos-3.png)

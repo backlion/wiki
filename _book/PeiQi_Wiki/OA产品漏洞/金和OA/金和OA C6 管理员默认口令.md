@@ -30,6 +30,8 @@
 
 > [!NOTE]
 >
-> 金和OA C6 管理员默认口令
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
+> JingHe_OA_C6_Default_password
 
 ![](image/jh-3.png)

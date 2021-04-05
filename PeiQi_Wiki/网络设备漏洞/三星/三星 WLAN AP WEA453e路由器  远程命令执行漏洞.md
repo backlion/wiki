@@ -105,6 +105,8 @@ if __name__ == '__main__':
 
 > [!NOTE]
 >
-> 三星 WLAN AP WEA453e路由器  远程命令执行漏洞
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
+> Samsung_WLAN_AP_wea453e_router_RCE
 
 ![](image/sx-4.png)

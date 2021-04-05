@@ -45,6 +45,8 @@ Cookie: login=1; oid=1.3.6.1.4.1.4881.1.1.10.1.3; type=WS5302; auth=Z3Vlc3Q6Z3Vl
 
 > [!NOTE]
 >
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
 > Ruijie_smartweb_password_information_disclosure
 
 ![](image/ruijie-18.png)

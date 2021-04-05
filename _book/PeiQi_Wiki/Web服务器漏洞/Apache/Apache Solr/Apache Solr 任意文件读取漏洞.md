@@ -180,7 +180,9 @@ if __name__ == '__main__':
 
 ## Goby & POC
 
-> Apache Solr 任意文件读取漏洞
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
+> Apache_Solr_Arbitrary_File_Read.json
 
 ![](image/solr-33.png)
 

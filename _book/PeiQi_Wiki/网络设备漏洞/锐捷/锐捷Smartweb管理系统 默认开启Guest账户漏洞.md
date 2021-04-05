@@ -26,6 +26,8 @@
 
 > [!NOTE]
 >
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
 > Ruijie smartweb weak password
 
 ![](image/ruijie-21.png)
