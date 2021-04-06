@@ -231,6 +231,10 @@
 	   * [1039家校通 后台任意文件上传漏洞](PeiQi_Wiki/CMS漏洞/1039家校通/1039家校通 后台任意文件上传漏洞.md)
 	* [BSPHP](PeiQi_Wiki/CMS漏洞/BSPHP/README.md)
 	   * [BSPHP 未授权访问 信息泄露漏洞](PeiQi_Wiki/CMS漏洞/BSPHP/BSPHP 未授权访问 信息泄露漏洞.md)
+	* [快排CMS](PeiQi_Wiki/CMS漏洞/快排CMS/README.md)
+	   * [快排CMS 信息泄露漏洞](PeiQi_Wiki/CMS漏洞/快排CMS/快排CMS 信息泄露漏洞.md)
+	   * [快排CMS 后台XSS漏洞](PeiQi_Wiki/CMS漏洞/快排CMS/快排CMS 后台XSS漏洞.md)
+	   * [快排CMS 任意文件上传漏洞](PeiQi_Wiki/CMS漏洞/快排CMS/快排CMS 任意文件上传漏洞.md)
 	
 * [操作系统漏洞](PeiQi_Wiki/操作系统漏洞/README.md)
 	* [Windows](PeiQi_Wiki/操作系统漏洞/Windows/README.md)
