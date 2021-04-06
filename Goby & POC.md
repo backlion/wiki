@@ -1,5 +1,7 @@
 # Goby & POC 更新时间线记录🐟
 
+###### 2021-4-5 致远OA A6 initDataAssess.jsp 用户敏感信息泄露
+
 ###### 2021-4-4 锐捷Smartweb管理系统 密码信息泄露漏洞
 
 ###### 2021-4-4 锐捷Smartweb管理系统 默认开启Guest账户漏洞

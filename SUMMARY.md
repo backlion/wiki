@@ -251,6 +251,7 @@
 	   * [CISCO ASA设备任意文件读取漏洞 CVE-2020-3452](PeiQi_Wiki/网络设备漏洞/Cisco/CISCO ASA设备任意文件读取漏洞 CVE-2020-3452.md)
 	* [Zyxel](PeiQi_Wiki/网络设备漏洞/Zyxel/README.md)
 	   * [Zyxel 硬编码后门账户漏洞 CVE-2020-29583](PeiQi_Wiki/网络设备漏洞/Zyxel/Zyxel 硬编码后门账户漏洞 CVE-2020-29583.md)
+	   * [Zyxel NBG2105 身份验证绕过 CVE-2021-3297](PeiQi_Wiki/网络设备漏洞/Zyxel/Zyxel NBG2105 身份验证绕过 CVE-2021-3297.md)
 	* [锐捷](PeiQi_Wiki/网络设备漏洞/锐捷/README.md)
 	   * [锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞 CNVD-2021-09650](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷NBR路由器 EWEB网管系统 远程命令执行漏洞 CNVD-2021-09650.md)
 	   * [锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露](PeiQi_Wiki/网络设备漏洞/锐捷/锐捷RG-UAC统一上网行为管理审计系统存在账号密码信息泄露.md)

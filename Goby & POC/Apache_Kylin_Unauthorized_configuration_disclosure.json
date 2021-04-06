@@ -14,40 +14,6 @@
       "References": [
             "http://wiki.peiqi.tech"
       ],
-      "ScanSteps": [
-            "AND",
-            {
-                  "Request": {
-                        "method": "GET",
-                        "uri": "/api/admin/config",
-                        "follow_redirect": false,
-                        "header": {},
-                        "data_type": "text",
-                        "data": ""
-                  },
-                  "ResponseTest": {
-                        "type": "group",
-                        "operation": "AND",
-                        "checks": [
-                              {
-                                    "type": "item",
-                                    "variable": "$code",
-                                    "operation": "==",
-                                    "value": "200",
-                                    "bz": ""
-                              },
-                              {
-                                    "type": "item",
-                                    "variable": "$body",
-                                    "operation": "contains",
-                                    "value": "config",
-                                    "bz": ""
-                              }
-                        ]
-                  },
-                  "SetVariable": []
-            }
-      ],
 	  "HasExp": true,
 	  "ExpParams": [
 		{

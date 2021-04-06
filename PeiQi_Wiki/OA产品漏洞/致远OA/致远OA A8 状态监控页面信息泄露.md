@@ -103,3 +103,10 @@ if __name__ == '__main__':
 
 ![](image/zhiyuan-36.png)
 
+## Goby & POC
+
+> [!NOTE]
+>
+> Seeyon OA A8-m Information leakage
+
+![](image/zhiyuan-43.png)

@@ -4,7 +4,7 @@
       "Tags": [
             "Disclosure of Sensitive Information"
       ],
-      "GobyQuery": "app=\"Yonyou-Seeyon-OA\"",
+      "GobyQuery": "app=\"Yonyou-Seeyon-OA\" && body=\"致远协创A6\"",
       "Description": "There is an unauthorized interface in Zhiyuan OA A6, so that any visitor can download the user information in OA",
       "Product": "Seeyon OA A6",
       "Homepage": "https://www.seeyon.com/",
