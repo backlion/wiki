@@ -158,7 +158,7 @@
 	* [默安](PeiQi_Wiki/Web应用漏洞/默安/README.md)
 	   * [默安 幻阵蜜罐未授权访问 RCE](PeiQi_Wiki/Web应用漏洞/默安/默安 幻阵蜜罐未授权访问 RCE.md)
 	* [天擎](PeiQi_Wiki/Web应用漏洞/天擎/README.md)
-	   * [天擎 未授权越权访问](PeiQi_Wiki/Web应用漏洞/天擎/天擎 未授权越权访问.md)
+	   * [天擎 数据库信息泄露漏洞](PeiQi_Wiki/Web应用漏洞/天擎/天擎 数据库信息泄露漏洞.md)
 	   * [天擎 前台SQL注入](PeiQi_Wiki/Web应用漏洞/天擎/天擎 前台SQL注入.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
