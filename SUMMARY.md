@@ -186,6 +186,7 @@
 	   * [泛微OA e-cology 数据库配置信息泄漏漏洞](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA e-cology 数据库配置信息泄漏漏洞.md)
 	   * [泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA sysinterfacecodeEdit.jsp 页面任意文件上传.md)
 	   * [泛微OA V9 任意文件上传](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA V9 任意文件上传.md)
+	   * [泛微OA V8 SQL注入漏洞](PeiQi_Wiki/OA产品漏洞/泛微OA/泛微OA V8 SQL注入漏洞.md)
     * [通达OA](PeiQi_Wiki/OA产品漏洞/通达OA/README.md)
 	   * [通达OA部分漏洞信息整合](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA部分漏洞信息整合.md)
 	   * [通达OA v11.2 后台任意文件上传漏洞](PeiQi_Wiki/OA产品漏洞/通达OA/通达OA v11.2 后台任意文件上传漏洞.md)
