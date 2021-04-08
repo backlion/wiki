@@ -126,6 +126,7 @@
 	   * [Seo-Panel 4.8.0 反射型XSS漏洞  CVE-2021-3002](PeiQi_Wiki/Web应用漏洞/Seo-Panel/Seo-Panel 4.8.0 反射型XSS漏洞  CVE-2021-3002.md)
 	* [深信服](PeiQi_Wiki/Web应用漏洞/深信服/README.md)
 	   * [深信服EDR远程命令执行 CNVD-2020-46552](PeiQi_Wiki/Web应用漏洞/深信服/深信服EDR远程命令执行 CNVD-2020-46552.md)
+	   * [深信服 SSL VPN 客户端远程文件下载](PeiQi_Wiki/Web应用漏洞/深信服/深信服 SSL VPN 客户端远程文件下载.md)
 	* [Alibaba Nacos](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/README.md)
 	   * [Alibaba Nacos 控制台默认弱口令](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 控制台默认弱口令.md)
 	   * [Alibaba Nacos 未授权访问漏洞](PeiQi_Wiki/Web应用漏洞/Alibaba Nacos/Alibaba Nacos 未授权访问漏洞.md)
