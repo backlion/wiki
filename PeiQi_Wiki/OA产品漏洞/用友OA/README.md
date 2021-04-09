@@ -4,3 +4,5 @@
 
 #### 用友 NC 反序列化RCE漏洞
 
+#### 用友 NC XbrlPersistenceServlet反序列化
+
