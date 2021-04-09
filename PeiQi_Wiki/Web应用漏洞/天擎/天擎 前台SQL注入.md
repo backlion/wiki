@@ -37,3 +37,13 @@ sqlmap -u https://xxx.xxx.xxx.xxx:8443/api/dp/rptsvcsyncpoint?ccid=1 --dbms Post
 ```
 
 ![](image/tq-1.png)
+
+## Goby & POC
+
+> [!NOTE]
+>
+> 已上传 https://github.com/PeiQi0/PeiQi-WIKI-POC Goby & POC 目录中
+>
+> 360 TianQing ccid SQL injectable
+
+![](image/tq-4.png)
