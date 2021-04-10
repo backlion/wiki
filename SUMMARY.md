@@ -315,6 +315,8 @@
 	   * [DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137](PeiQi_Wiki/网络设备漏洞/DD-WRT/DD-WRT UPNP缓冲区溢出漏洞 CVE-2021-27137.md)
 	* [朗视](PeiQi_Wiki/网络设备漏洞/朗视/README.md)
 	   * [朗视 TG400 GSM 网关目录遍历  CVE-2021-27328](PeiQi_Wiki/网络设备漏洞/朗视/朗视 TG400 GSM 网关目录遍历  CVE-2021-27328.md)
-	* [三星](PeiQi_Wiki/网络设备漏洞/朗视/README.md)
+	* [三星](PeiQi_Wiki/网络设备漏洞/三星/README.md)
 	   * [三星 WLAN AP WEA453e路由器  远程命令执行漏洞](PeiQi_Wiki/网络设备漏洞/三星/三星 WLAN AP WEA453e路由器  远程命令执行漏洞.md)
+	* [奇安信](PeiQi_Wiki/网络设备漏洞/奇安信/README.md)
+	   * [奇安信 网康下一代防火墙 RCE](PeiQi_Wiki/网络设备漏洞/奇安信/奇安信 网康下一代防火墙 RCE.md)
 
