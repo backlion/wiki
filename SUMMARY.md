@@ -91,6 +91,7 @@
 	* [浪潮](PeiQi_Wiki/服务器应用漏洞/浪潮/README.md)
 	   * [浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224.md)
 	   * [浪潮ClusterEngineV4.0 任意用户登录漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 任意用户登录漏洞.md)
+	   * [浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞.md)
 	* [Git](PeiQi_Wiki/服务器应用漏洞/Git/README.md)
 	   * [Git for Visual Studio远程执行代码漏洞 CVE-2021-21300](PeiQi_Wiki/服务器应用漏洞/Git/Git for Visual Studio远程执行代码漏洞 CVE-2021-21300.md)
 	   * [Git-LFS 远程命令执行漏洞 CVE-2020-27955](PeiQi_Wiki/服务器应用漏洞/Git/Git-LFS 远程命令执行漏洞 CVE-2020-27955.md)

