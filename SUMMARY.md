@@ -172,6 +172,8 @@
 	   * [OneBlog 小于v2.2.1 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/OneBlog/OneBlog 小于v2.2.1 远程命令执行漏洞.md)
 	* [亿邮](PeiQi_Wiki/Web应用漏洞/亿邮/README.md)
 	   * [亿邮电子邮件系统 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/亿邮/亿邮电子邮件系统 远程命令执行漏洞.md)
+	* [SonarQube](PeiQi_Wiki/Web应用漏洞/SonarQube/README.md)
+	   * [SonarQube api 信息泄露漏洞 CVE-2020-27986](PeiQi_Wiki/Web应用漏洞/SonarQube/SonarQube api 信息泄露漏洞 CVE-2020-27986.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)
