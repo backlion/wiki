@@ -99,6 +99,8 @@
 	   * [Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065.md)
 	* [和信创天云](PeiQi_Wiki/服务器应用漏洞/和信创天云/README.md)
 	   * [和信创天云桌面系统 远程命令执行 RCE漏洞](PeiQi_Wiki/服务器应用漏洞/和信创天云/和信创天云桌面系统 远程命令执行 RCE漏洞.md)
+	* [金山](PeiQi_Wiki/服务器应用漏洞/金山/README.md)
+	   * [金山 V8 终端安全系统 默认弱口令漏洞](PeiQi_Wiki/服务器应用漏洞/金山/金山 V8 终端安全系统 默认弱口令漏洞.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
