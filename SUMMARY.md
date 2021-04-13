@@ -91,6 +91,7 @@
 	* [浪潮](PeiQi_Wiki/服务器应用漏洞/浪潮/README.md)
 	   * [浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 远程命令执行漏洞 CVE-2020-21224.md)
 	   * [浪潮ClusterEngineV4.0 任意用户登录漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 任意用户登录漏洞.md)
+	   * [浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞](PeiQi_Wiki/服务器应用漏洞/浪潮/浪潮ClusterEngineV4.0 sysShell 任意命令执行漏洞.md)
 	* [Git](PeiQi_Wiki/服务器应用漏洞/Git/README.md)
 	   * [Git for Visual Studio远程执行代码漏洞 CVE-2021-21300](PeiQi_Wiki/服务器应用漏洞/Git/Git for Visual Studio远程执行代码漏洞 CVE-2021-21300.md)
 	   * [Git-LFS 远程命令执行漏洞 CVE-2020-27955](PeiQi_Wiki/服务器应用漏洞/Git/Git-LFS 远程命令执行漏洞 CVE-2020-27955.md)
@@ -99,6 +100,8 @@
 	   * [Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065](PeiQi_Wiki/服务器应用漏洞/Microsoft Exchange/Microsoft Exchange 远程命令执行 CVE-2021-27065 26857 26858 27065.md)
 	* [和信创天云](PeiQi_Wiki/服务器应用漏洞/和信创天云/README.md)
 	   * [和信创天云桌面系统 远程命令执行 RCE漏洞](PeiQi_Wiki/服务器应用漏洞/和信创天云/和信创天云桌面系统 远程命令执行 RCE漏洞.md)
+	* [金山](PeiQi_Wiki/服务器应用漏洞/金山/README.md)
+	   * [金山 V8 终端安全系统 默认弱口令漏洞](PeiQi_Wiki/服务器应用漏洞/金山/金山 V8 终端安全系统 默认弱口令漏洞.md)
 	
 * [Web应用漏洞](PeiQi_Wiki/Web应用漏洞/README.md)
 	* [宝塔运维管理面板](PeiQi_Wiki/Web应用漏洞/宝塔运维管理面板/README.md)
@@ -169,6 +172,8 @@
 	   * [OneBlog 小于v2.2.1 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/OneBlog/OneBlog 小于v2.2.1 远程命令执行漏洞.md)
 	* [亿邮](PeiQi_Wiki/Web应用漏洞/亿邮/README.md)
 	   * [亿邮电子邮件系统 远程命令执行漏洞](PeiQi_Wiki/Web应用漏洞/亿邮/亿邮电子邮件系统 远程命令执行漏洞.md)
+	* [SonarQube](PeiQi_Wiki/Web应用漏洞/SonarQube/README.md)
+	   * [SonarQube api 信息泄露漏洞 CVE-2020-27986](PeiQi_Wiki/Web应用漏洞/SonarQube/SonarQube api 信息泄露漏洞 CVE-2020-27986.md)
 	
 * [开发框架漏洞](PeiQi_Wiki/开发框架漏洞/README.md)
     * [Laravel](PeiQi_Wiki/开发框架漏洞/Laravel/README.md)

@@ -105,5 +105,7 @@
 >
 > 别忘了Github下载完给个小星星⭐
 
+[![Stargazers over time](https://starchart.cc/PeiQi0/PeiQi-WIKI-POC.svg)](https://starchart.cc/PeiQi0/PeiQi-WIKI-POC)
+
 ![](PeiQi_Wiki/background/image-2.png)
 

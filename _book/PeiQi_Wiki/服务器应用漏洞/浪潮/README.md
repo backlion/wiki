@@ -4,5 +4,11 @@
 
 #### 浪潮ClusterEngineV4.0 任意用户登录漏洞
 
+#### 浪潮ClusterEngineV4.0 sysShell 远程命令执行漏洞
+
+
+
+
+
 
 
